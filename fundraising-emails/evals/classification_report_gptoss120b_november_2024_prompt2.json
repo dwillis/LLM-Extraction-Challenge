@@ -3,7 +3,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 9.0
+        "support": 10.0
     },
     "alexandria ocasio-cortez for congress": {
         "precision": 1.0,
@@ -27,7 +27,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 3.0
     },
     "american principles project": {
         "precision": 1.0,
@@ -54,9 +54,9 @@
         "support": 3.0
     },
     "arizona democrats": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 4.0
     },
     "bell for missouri": {
@@ -75,7 +75,19 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 10.0
+        "support": 11.0
+    },
+    "blackburn tennessee victory fund": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+    },
+    "blue amp action pac": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
     },
     "blumenthal for connecticut": {
         "precision": 1.0,
@@ -87,12 +99,12 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 16.0
+        "support": 17.0
     },
     "bohannan for congress": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 2.0
     },
     "bonnie watson coleman for congress": {
@@ -137,6 +149,12 @@
         "f1-score": 1.0,
         "support": 1.0
     },
+    "celeste for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
     "champion american values": {
         "precision": 1.0,
         "recall": 1.0,
@@ -148,12 +166,6 @@
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 3.0
-    },
-    "christina bohannan for congress": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
     },
     "citizens for boyle": {
         "precision": 1.0,
@@ -168,16 +180,16 @@
         "support": 1.0
     },
     "collective pac": {
-        "precision": 0.3333333333333333,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.5,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "cooke for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 6.0
     },
     "cooper for north carolina": {
         "precision": 1.0,
@@ -201,25 +213,25 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 17.0
+        "support": 18.0
     },
     "defeat boebert pac": {
-        "precision": 0.8947368421052632,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.9444444444444444,
-        "support": 17.0
+        "f1-score": 1.0,
+        "support": 19.0
     },
     "defeatboebert pac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 2.0
     },
     "defend freedom inc.": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 5.0
     },
     "democracy on the line pac": {
         "precision": 1.0,
@@ -231,19 +243,19 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 4.0
+        "support": 5.0
     },
     "democratic legislative campaign committee": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 5.0
+        "support": 10.0
     },
     "democratic party of georgia": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 9.0
+        "support": 10.0
     },
     "depasquale for ag": {
         "precision": 1.0,
@@ -255,7 +267,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 5.0
+        "support": 6.0
     },
     "dlcc pac": {
         "precision": 1.0,
@@ -273,13 +285,13 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "dr. raul ruiz for congress committee": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "early vote action pac": {
         "precision": 1.0,
@@ -297,7 +309,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 3.0
+        "support": 4.0
     },
     "elfreth for maryland": {
         "precision": 1.0,
@@ -321,25 +333,25 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 3.0
+        "support": 4.0
     },
     "emily randall for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
+    },
+    "emilys list": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
     },
     "end citizens united nonfederal": {
         "precision": 1.0,
-        "recall": 0.9285714285714286,
-        "f1-score": 0.9629629629629629,
-        "support": 14.0
-    },
-    "end citizens united-nonfederal": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16.0
     },
     "engel for arizona": {
         "precision": 1.0,
@@ -366,22 +378,16 @@
         "support": 1.0
     },
     "faulconer for supervisor 2024": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
-    },
-    "faulconer for supervisor 2024 - fppc id 1461674": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
     },
     "fetterman for pa": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 3.0
+        "support": 4.0
     },
     "fight for progress pac": {
         "precision": 1.0,
@@ -399,7 +405,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "friends of austin davis": {
         "precision": 1.0,
@@ -417,7 +423,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "friends of jahana hayes": {
         "precision": 1.0,
@@ -429,7 +435,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "friends of jeremy shaffer": {
         "precision": 1.0,
@@ -444,10 +450,10 @@
         "support": 3.0
     },
     "friends of kristin for wisconsin": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 3.0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
     },
     "friends of mark warner": {
         "precision": 1.0,
@@ -455,35 +461,41 @@
         "f1-score": 1.0,
         "support": 3.0
     },
-    "friends of raja for congress": {
+    "friends of melissa chaudhry for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 1.0
     },
-    "friends of sherrod brown": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 21.0
-    },
-    "gabe vasquez for congress": {
+    "friends of raja for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 2.0
     },
-    "gay valimont for congress": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+    "friends of sherrod brown": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+    },
+    "friends of tina kotek": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
-    "gay valimont gay valimont for congress": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+    "gabe vasquez for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+    },
+    "gay valimont for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
     },
     "gcgop": {
         "precision": 1.0,
@@ -495,19 +507,13 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
-    },
-    "georgia blue pac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
         "support": 2.0
     },
-    "georgia blue pac georgia house democratic caucus": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+    "georgia blue pac": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
     },
     "gillen for ny": {
         "precision": 1.0,
@@ -519,7 +525,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 12.0
+        "support": 13.0
     },
     "glenn grothman for congress": {
         "precision": 1.0,
@@ -549,13 +555,13 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 9.0
+        "support": 14.0
     },
     "hellfire pac": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "her bold move action": {
         "precision": 1.0,
@@ -579,7 +585,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 11.0
+        "support": 12.0
     },
     "hung cao for congress": {
         "precision": 1.0,
@@ -591,7 +597,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 14.0
+        "support": 17.0
     },
     "hunt for congress": {
         "precision": 1.0,
@@ -600,15 +606,15 @@
         "support": 1.0
     },
     "indiana democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 3.0
     },
     "indiana republican state committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 2.0
     },
     "integrity first voter action project": {
@@ -629,23 +635,23 @@
         "f1-score": 1.0,
         "support": 4.0
     },
-    "jane fonda climate pac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
     "jane fonda climatepac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 1.0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
     },
     "janelle bynum for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 4.0
+        "support": 5.0
+    },
+    "jared moskowitz for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
     },
     "jason crow for congress": {
         "precision": 1.0,
@@ -659,11 +665,17 @@
         "f1-score": 1.0,
         "support": 1.0
     },
-    "jeffries for congress": {
+    "jeff merkley for oregon": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 1.0
+    },
+    "jeffries for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
     },
     "jessica morse for congress": {
         "precision": 1.0,
@@ -699,7 +711,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 4.0
+        "support": 5.0
     },
     "jonathan nez for congress": {
         "precision": 1.0,
@@ -717,13 +729,19 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "joyce craig for nh": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 3.0
+        "support": 5.0
+    },
+    "judge joe mcgraw for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
     },
     "justice democrats": {
         "precision": 1.0,
@@ -749,16 +767,10 @@
         "f1-score": 1.0,
         "support": 4.0
     },
-    "keith ellison for attorney general": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
     "keith ellison for attorney general committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 3.0
     },
     "ken mitchell for virginia": {
@@ -780,9 +792,9 @@
         "support": 4.0
     },
     "kristin lyerly for congress": {
-        "precision": 0.25,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.4,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "lateefah for congress": {
@@ -813,13 +825,13 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "lisa blunt rochester for senate": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "lofgren for congress": {
         "precision": 1.0,
@@ -831,7 +843,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 12.0
+        "support": 13.0
     },
     "mackenzie for congress": {
         "precision": 1.0,
@@ -867,7 +879,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 3.0
+        "support": 4.0
     },
     "martin heinrich for senate": {
         "precision": 1.0,
@@ -876,9 +888,9 @@
         "support": 2.0
     },
     "massachusetts democratic state committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "maxine for congress": {
@@ -903,7 +915,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "mike johnson for louisiana": {
         "precision": 1.0,
@@ -951,49 +963,43 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 6.0
+        "support": 7.0
     },
     "national redistricting action fund": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "nebraska republican party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "nella for senate": {
         "precision": 1.0,
-        "recall": 0.75,
-        "f1-score": 0.8571428571428571,
-        "support": 12.0
-    },
-    "nella for senate.": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 13.0
     },
     "nevada state democratic party": {
         "precision": 1.0,
-        "recall": 0.3333333333333333,
-        "f1-score": 0.5,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 6.0
-    },
-    "nevada state democratic party, nvdems.com": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
     },
     "new democrat coalition action fund": {
         "precision": 1.0,
-        "recall": 0.3333333333333333,
-        "f1-score": 0.5,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 3.0
+    },
+    "new york young republican club": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
     },
     "nikki budzinski for congress": {
         "precision": 1.0,
@@ -1007,25 +1013,25 @@
         "f1-score": 1.0,
         "support": 1.0
     },
-    "none": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
     "nrcc": {
         "precision": 1.0,
-        "recall": 0.8,
-        "f1-score": 0.8888888888888888,
-        "support": 5.0
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11.0
     },
     "nrsc": {
         "precision": 1.0,
-        "recall": 0.7073170731707317,
-        "f1-score": 0.8285714285714286,
-        "support": 41.0
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 56.0
     },
     "ohio democratic party": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+    },
+    "okgop": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
@@ -1038,15 +1044,15 @@
         "support": 2.0
     },
     "pat harrigan committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 2.0
     },
     "pennsylvania democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 4.0
     },
     "peter hernandez for congress": {
@@ -1054,6 +1060,12 @@
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 2.0
+    },
+    "pfaff for state senate": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
     },
     "powered by people": {
         "precision": 1.0,
@@ -1067,16 +1079,28 @@
         "f1-score": 1.0,
         "support": 3.0
     },
+    "rand paul for senate": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+    },
     "rapid resist action": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 1.0
     },
+    "reddy for kansas": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
     "republican party of virginia": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "rick scott for florida": {
@@ -1085,22 +1109,34 @@
         "f1-score": 1.0,
         "support": 2.0
     },
+    "rob ortt for state senate": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
+    "robert garcia for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
     "rogers for senate": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 9.0
+        "support": 11.0
     },
     "rosen for nevada": {
-        "precision": 0.9473684210526315,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.972972972972973,
-        "support": 18.0
+        "f1-score": 1.0,
+        "support": 20.0
     },
     "rosenfor nevada": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "royce white for senate": {
@@ -1113,13 +1149,13 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 4.0
+        "support": 7.0
     },
     "rudy giuliani freedom fund legal defense trust": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "sam eppler for congress": {
         "precision": 1.0,
@@ -1141,9 +1177,9 @@
     },
     "schiff for senate": {
         "precision": 1.0,
-        "recall": 0.7142857142857143,
-        "f1-score": 0.8333333333333334,
-        "support": 7.0
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
     },
     "scholten for congress": {
         "precision": 1.0,
@@ -1155,19 +1191,13 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 7.0
+        "support": 10.0
     },
     "sensible americans pac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 3.0
-    },
-    "sensible americans pac, losecruz.com": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
     },
     "servant leadership fund": {
         "precision": 1.0,
@@ -1179,30 +1209,30 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "shaheen for senate": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "sharice for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 3.0
+        "support": 4.0
     },
     "shontel brown for congress": {
-        "precision": 0.5,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.6666666666666666,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "shontelbrown for congress": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "sonza for congress": {
@@ -1233,7 +1263,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 5.0
+        "support": 6.0
     },
     "susan wild for congress": {
         "precision": 1.0,
@@ -1247,13 +1277,25 @@
         "f1-score": 1.0,
         "support": 2.0
     },
+    "tad jude for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
     "tammy baldwin for senate": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 10.0
+        "support": 11.0
     },
     "team graham, inc.": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
+    "team imer pac": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
@@ -1263,109 +1305,49 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 1.0
+        "support": 2.0
     },
     "team scalise": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 4.0
+        "support": 8.0
     },
     "ted cruz for senate": {
-        "precision": 0.9375,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.967741935483871,
-        "support": 15.0
+        "f1-score": 1.0,
+        "support": 19.0
     },
     "ted cruz forsenate": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 1.0
-    },
-    "the arizona democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the collective pac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 2.0
     },
-    "the indiana democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+    "the collective pac": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
     },
-    "the indiana republican state committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the massachusetts democratic state committee massachusetts democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the national redistricting action fund": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the nebraska republican party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the nevada state democratic party, nvdems.com": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the new democrat coalition action fund": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the nrcc": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the nrsc": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the pat harrigan committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "the pennsylvania democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+    "the real texas pac": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
     },
     "the republican party of virginia": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
+    },
+    "the republican party of wisconsin": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
     },
     "their future pac": {
         "precision": 1.0,
@@ -1395,7 +1377,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 14.0
+        "support": 16.0
     },
     "tina smith for minnesota": {
         "precision": 1.0,
@@ -1419,55 +1401,31 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
+        "support": 6.0
+    },
+    "troy downing for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 4.0
     },
     "trump national committee jfc inc.": {
         "precision": 1.0,
-        "recall": 0.43333333333333335,
-        "f1-score": 0.6046511627906976,
-        "support": 30.0
-    },
-    "trump national committee jfc inc., a joint fundraising committee composed of and authorized by donald j. trump for president 2024, inc. and the republican national committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "trump national committee jfc inc., a joint fundraising committee composed of and authorized by donald j. trump for president 2024, inc. and the republican national committee.": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "trump national committee jfc, inc.": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "trump national committee jfc, inc., a joint fundraising committee composed of and authorized by donald j. trump for president 2024, inc. and the republican national committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "trump national committee jfc, inc., a joint fundraising committee composed of and authorized by donald j. trump for president 2024, inc. and the republican national committee.": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 32.0
     },
     "truth to power pac": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "turning point action": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 15.0
+        "support": 19.0
     },
     "unite the country": {
         "precision": 1.0,
@@ -1479,7 +1437,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 9.0
+        "support": 10.0
     },
     "upright pac": {
         "precision": 1.0,
@@ -1488,15 +1446,21 @@
         "support": 4.0
     },
     "upset the setup pac": {
-        "precision": 0.8,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.8888888888888888,
+        "f1-score": 1.0,
         "support": 4.0
     },
+    "upset the setuppac": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
     "upsetthe setup pac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "val hoyle for congress": {
@@ -1524,28 +1488,16 @@
         "support": 2.0
     },
     "voter protection project": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 14.0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 15.0
     },
     "voters deserve better": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 1.0
-    },
-    "vpp": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "vpp (www.protectvoting.org)": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
     },
     "warnock for georgia": {
         "precision": 1.0,
@@ -1560,6 +1512,12 @@
         "support": 1.0
     },
     "wexton for congress": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+    },
+    "whitlow for congress": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
@@ -1581,7 +1539,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2.0
+        "support": 3.0
     },
     "yvette4congress": {
         "precision": 1.0,
@@ -1589,17 +1547,17 @@
         "f1-score": 1.0,
         "support": 1.0
     },
-    "accuracy": 0.8766954377311961,
+    "accuracy": 1.0,
     "macro avg": {
-        "precision": 0.7836337305527972,
-        "recall": 0.7811327328906712,
-        "f1-score": 0.7785519454420641,
-        "support": 811.0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1000.0
     },
     "weighted avg": {
-        "precision": 0.9206029484933048,
-        "recall": 0.8766954377311961,
-        "f1-score": 0.8900904529268464,
-        "support": 811.0
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1000.0
     }
 }
