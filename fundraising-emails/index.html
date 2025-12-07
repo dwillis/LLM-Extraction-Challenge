@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political Email Extraction Leaderboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .introduction {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-left: 4px solid #667eea;
+            margin: 30px;
+            border-radius: 8px;
+        }
+
+        .introduction p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .introduction a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s;
+        }
+
+        .introduction a:hover {
+            border-bottom: 2px solid #667eea;
+        }
+
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .filter-btn {
+            padding: 12px 24px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .stats {
+            padding: 10px 30px;
+            background: #e7f3ff;
+            color: #004085;
+            font-weight: 600;
+        }
+
+        .section {
+            padding: 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            font-weight: 700;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.3s;
+        }
+
+        th:hover {
+            background: linear-gradient(135deg, #5568d3 0%, #653a8a 100%);
+        }
+
+        th::after {
+            content: ' ↕';
+            opacity: 0.5;
+            font-size: 0.8em;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        tr.hidden {
+            display: none;
+        }
+
+        .metric-value {
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        .match-percent {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .match-high { background: #d4edda; color: #155724; }
+        .match-medium { background: #fff3cd; color: #856404; }
+        .match-low { background: #f8d7da; color: #721c24; }
+
+        .timestamp {
+            text-align: center;
+            color: #6c757d;
+            padding: 30px;
+            font-size: 0.9em;
+            background: #f8f9fa;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px;
+            color: #6c757d;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .controls {
+                flex-direction: column;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            th, td {
+                padding: 10px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏆 Political Email Extraction Leaderboard</h1>
+            <p>Comparing LLM Performance on Committee Name Extraction</p>
+        </header>
+
+        <div class="introduction">
+            <p>What kind of sicko signs up for political fundraising emails from just about every committee? Oh, right, that's me. I've collected thousands of political fundraising emails and challenged various LLMs to extract committee names from their disclaimers (like "Paid for by The Pennsylvania Democratic Party"). This extraction isn't straightforward - disclaimers vary in format and position, with some being simple and others continuing with additional text about contributions and treasurers.</p>
+
+            <p>Using the same 1,000 emails from November 2024 and a zero-shot prompt asking models to extract committee names and senders, I've compared how different LLMs perform at this task. The leaderboard below shows each model's success rate at correctly matching the committee names in the training dataset. For more details on this project, read my <a href="https://thescoop.org/archives/2025/01/27/llm-extraction-challenge-fundraising-emails/index.html">full blog post</a>. You can also explore the <a href="https://github.com/dwillis/LLM-Extraction-Challenge">complete code and extraction results on GitHub</a>.</p>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Search by model name...">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Models</button>
+                <button class="filter-btn" data-filter="updated">Updated Prompt</button>
+                <button class="filter-btn" data-filter="original">Original Prompt</button>
+            </div>
+        </div>
+
+        <div class="stats" id="stats">
+            Showing <span id="visibleCount">0</span> of <span id="totalCount">0</span> models
+        </div>
+
+        <div class="section">
+            <h2>Updated Prompt Results</h2>
+            <div class="table-wrapper">
+                <table id="updatedTable">
+                    <thead>
+                        <tr>
+                            <th data-sort="model">Model</th>
+                            <th data-sort="total">Total Records</th>
+                            <th data-sort="matches">Matches</th>
+                            <th data-sort="matchpct">Match %</th>
+                            <th data-sort="accuracy">Accuracy</th>
+                            <th data-sort="precision">Precision</th>
+                            <th data-sort="recall">Recall</th>
+                            <th data-sort="f1">F1 Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+        <tr data-type="updated">
+            <td>gpt-4o_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">969</td>
+            <td><span class="match-percent match-high">96.90%</span></td>
+            <td class="metric-value">0.97</td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.91</td>
+        </tr>
+        <tr data-type="updated">
+            <td>claude37_sonnet_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">964</td>
+            <td><span class="match-percent match-high">96.40%</span></td>
+            <td class="metric-value">0.96</td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.90</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemini_25_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">962</td>
+            <td><span class="match-percent match-high">96.20%</span></td>
+            <td class="metric-value">0.96</td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.89</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemini25_flash_preview_04_17_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">961</td>
+            <td><span class="match-percent match-high">96.10%</span></td>
+            <td class="metric-value">0.96</td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.88</td>
+        </tr>
+        <tr data-type="updated">
+            <td>claude35_haiku_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">956</td>
+            <td><span class="match-percent match-high">95.60%</span></td>
+            <td class="metric-value">0.96</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.88</td>
+        </tr>
+        <tr data-type="updated">
+            <td>qwen25_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">955</td>
+            <td><span class="match-percent match-high">95.50%</span></td>
+            <td class="metric-value">0.95</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.87</td>
+        </tr>
+        <tr data-type="updated">
+            <td>mistral_small_31_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">942</td>
+            <td><span class="match-percent match-high">94.20%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.86</td>
+        </tr>
+        <tr data-type="updated">
+            <td>llama_4_maverick_17b_128e_instruct_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">940</td>
+            <td><span class="match-percent match-high">94.00%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.83</td>
+            <td class="metric-value">0.82</td>
+            <td class="metric-value">0.82</td>
+        </tr>
+        <tr data-type="updated">
+            <td>claude35_sonnet_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">938</td>
+            <td><span class="match-percent match-high">93.80%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.87</td>
+        </tr>
+        <tr data-type="updated">
+            <td>llama_4_scout_17b_16e_instruct_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">936</td>
+            <td><span class="match-percent match-high">93.60%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.86</td>
+        </tr>
+        <tr data-type="updated">
+            <td>mistral_small_32_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">934</td>
+            <td><span class="match-percent match-high">93.40%</span></td>
+            <td class="metric-value">0.93</td>
+            <td class="metric-value">0.84</td>
+            <td class="metric-value">0.82</td>
+            <td class="metric-value">0.83</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemini20_flash_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">932</td>
+            <td><span class="match-percent match-high">93.20%</span></td>
+            <td class="metric-value">0.93</td>
+            <td class="metric-value">0.83</td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.81</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gpt_41_mini_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">932</td>
+            <td><span class="match-percent match-high">93.20%</span></td>
+            <td class="metric-value">0.93</td>
+            <td class="metric-value">0.83</td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.82</td>
+        </tr>
+        <tr data-type="updated">
+            <td>cogito_70b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">891</td>
+            <td><span class="match-percent match-high">89.10%</span></td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.82</td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.80</td>
+        </tr>
+        <tr data-type="updated">
+            <td>llama33_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">890</td>
+            <td><span class="match-percent match-high">89.00%</span></td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.82</td>
+            <td class="metric-value">0.79</td>
+            <td class="metric-value">0.80</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gpt_41_nano_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">884</td>
+            <td><span class="match-percent match-high">88.40%</span></td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.76</td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.74</td>
+        </tr>
+        <tr data-type="updated">
+            <td>mistral_nemo_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">869</td>
+            <td><span class="match-percent match-high">86.90%</span></td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.77</td>
+            <td class="metric-value">0.77</td>
+        </tr>
+        <tr data-type="updated">
+            <td>openthinker_32b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">868</td>
+            <td><span class="match-percent match-high">86.80%</span></td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.78</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.76</td>
+        </tr>
+        <tr data-type="updated">
+            <td>qwq_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">863</td>
+            <td><span class="match-percent match-high">86.30%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.79</td>
+            <td class="metric-value">0.76</td>
+            <td class="metric-value">0.77</td>
+        </tr>
+        <tr data-type="updated">
+            <td>cogito_32b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">861</td>
+            <td><span class="match-percent match-high">86.10%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.79</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.76</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemma2_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">859</td>
+            <td><span class="match-percent match-high">85.90%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemma2_27b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">858</td>
+            <td><span class="match-percent match-high">85.80%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.76</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.73</td>
+        </tr>
+        <tr data-type="updated">
+            <td>cogito_14b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">857</td>
+            <td><span class="match-percent match-high">85.70%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.77</td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.75</td>
+        </tr>
+        <tr data-type="updated">
+            <td>qwen25_72b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">857</td>
+            <td><span class="match-percent match-high">85.70%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.79</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.77</td>
+        </tr>
+        <tr data-type="updated">
+            <td>phi4_reasoning_plus_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">853</td>
+            <td><span class="match-percent match-high">85.30%</span></td>
+            <td class="metric-value">0.85</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.67</td>
+            <td class="metric-value">0.68</td>
+        </tr>
+        <tr data-type="updated">
+            <td>phi4_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">852</td>
+            <td><span class="match-percent match-high">85.20%</span></td>
+            <td class="metric-value">0.85</td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="updated">
+            <td>tulu3_8b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">850</td>
+            <td><span class="match-percent match-high">85.00%</span></td>
+            <td class="metric-value">0.85</td>
+            <td class="metric-value">0.78</td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.75</td>
+        </tr>
+        <tr data-type="updated">
+            <td>olmo2_13b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">848</td>
+            <td><span class="match-percent match-medium">84.80%</span></td>
+            <td class="metric-value">0.85</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="updated">
+            <td>o3-mini_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">836</td>
+            <td><span class="match-percent match-medium">83.60%</span></td>
+            <td class="metric-value">0.84</td>
+            <td class="metric-value">0.68</td>
+            <td class="metric-value">0.64</td>
+            <td class="metric-value">0.65</td>
+        </tr>
+        <tr data-type="updated">
+            <td>mistral_small_24b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">835</td>
+            <td><span class="match-percent match-medium">83.50%</span></td>
+            <td class="metric-value">0.83</td>
+            <td class="metric-value">0.76</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.73</td>
+        </tr>
+        <tr data-type="updated">
+            <td>mixtral_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">834</td>
+            <td><span class="match-percent match-medium">83.40%</span></td>
+            <td class="metric-value">0.83</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="updated">
+            <td>command_a_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">818</td>
+            <td><span class="match-percent match-medium">81.80%</span></td>
+            <td class="metric-value">0.82</td>
+            <td class="metric-value">0.77</td>
+            <td class="metric-value">0.72</td>
+            <td class="metric-value">0.73</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemma3_27b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">817</td>
+            <td><span class="match-percent match-medium">81.70%</span></td>
+            <td class="metric-value">0.82</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.66</td>
+            <td class="metric-value">0.67</td>
+        </tr>
+        <tr data-type="updated">
+            <td>internlm2_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">815</td>
+            <td><span class="match-percent match-medium">81.50%</span></td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.69</td>
+            <td class="metric-value">0.65</td>
+            <td class="metric-value">0.66</td>
+        </tr>
+        <tr data-type="updated">
+            <td>granite31_dense_8b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">813</td>
+            <td><span class="match-percent match-medium">81.30%</span></td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.66</td>
+            <td class="metric-value">0.67</td>
+        </tr>
+        <tr data-type="updated">
+            <td>olmo2_7b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">810</td>
+            <td><span class="match-percent match-medium">81.00%</span></td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.66</td>
+            <td class="metric-value">0.68</td>
+        </tr>
+        <tr data-type="updated">
+            <td>granite3.2_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">807</td>
+            <td><span class="match-percent match-medium">80.70%</span></td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.69</td>
+            <td class="metric-value">0.65</td>
+            <td class="metric-value">0.66</td>
+        </tr>
+        <tr data-type="updated">
+            <td>granite3.3_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">803</td>
+            <td><span class="match-percent match-medium">80.30%</span></td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.68</td>
+            <td class="metric-value">0.63</td>
+            <td class="metric-value">0.65</td>
+        </tr>
+        <tr data-type="updated">
+            <td>exaone35_32b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">803</td>
+            <td><span class="match-percent match-medium">80.30%</span></td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.65</td>
+            <td class="metric-value">0.66</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemma3_27b_it_qat_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">802</td>
+            <td><span class="match-percent match-medium">80.20%</span></td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.65</td>
+            <td class="metric-value">0.66</td>
+        </tr>
+        <tr data-type="updated">
+            <td>exaone_deep_32b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">798</td>
+            <td><span class="match-percent match-medium">79.80%</span></td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.64</td>
+            <td class="metric-value">0.66</td>
+        </tr>
+        <tr data-type="updated">
+            <td>command_r7b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">770</td>
+            <td><span class="match-percent match-medium">77.00%</span></td>
+            <td class="metric-value">0.77</td>
+            <td class="metric-value">0.67</td>
+            <td class="metric-value">0.62</td>
+            <td class="metric-value">0.63</td>
+        </tr>
+        <tr data-type="updated">
+            <td>phi4_mini_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">753</td>
+            <td><span class="match-percent match-medium">75.30%</span></td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.55</td>
+            <td class="metric-value">0.48</td>
+            <td class="metric-value">0.50</td>
+        </tr>
+        <tr data-type="updated">
+            <td>qwen3_8b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">736</td>
+            <td><span class="match-percent match-medium">73.60%</span></td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.69</td>
+            <td class="metric-value">0.62</td>
+            <td class="metric-value">0.64</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gemma3_12b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">736</td>
+            <td><span class="match-percent match-medium">73.60%</span></td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.60</td>
+            <td class="metric-value">0.54</td>
+            <td class="metric-value">0.56</td>
+        </tr>
+        <tr data-type="updated">
+            <td>deepseek_r1_32b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">729</td>
+            <td><span class="match-percent match-medium">72.90%</span></td>
+            <td class="metric-value">0.73</td>
+            <td class="metric-value">0.69</td>
+            <td class="metric-value">0.60</td>
+            <td class="metric-value">0.63</td>
+        </tr>
+        <tr data-type="updated">
+            <td>internlm3_8b_instruct_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">653</td>
+            <td><span class="match-percent match-low">65.30%</span></td>
+            <td class="metric-value">0.65</td>
+            <td class="metric-value">0.41</td>
+            <td class="metric-value">0.35</td>
+            <td class="metric-value">0.37</td>
+        </tr>
+        <tr data-type="updated">
+            <td>qwen3_32b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">638</td>
+            <td><span class="match-percent match-low">63.80%</span></td>
+            <td class="metric-value">0.64</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.55</td>
+            <td class="metric-value">0.60</td>
+        </tr>
+        <tr data-type="updated">
+            <td>hermes3_70b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">637</td>
+            <td><span class="match-percent match-low">63.70%</span></td>
+            <td class="metric-value">0.64</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.56</td>
+            <td class="metric-value">0.61</td>
+        </tr>
+        <tr data-type="updated">
+            <td>phi3_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">580</td>
+            <td><span class="match-percent match-low">58.00%</span></td>
+            <td class="metric-value">0.58</td>
+            <td class="metric-value">0.48</td>
+            <td class="metric-value">0.38</td>
+            <td class="metric-value">0.41</td>
+        </tr>
+        <tr data-type="updated">
+            <td>qwen3_14b_november_2024_prompt2.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">239</td>
+            <td><span class="match-percent match-low">23.90%</span></td>
+            <td class="metric-value">0.24</td>
+            <td class="metric-value">0.35</td>
+            <td class="metric-value">0.20</td>
+            <td class="metric-value">0.24</td>
+        </tr>
+        <tr data-type="updated">
+            <td>claude_haiku_45_november_2024_prompt2.json</td>
+            <td class="metric-value">811</td>
+            <td class="metric-value">752</td>
+            <td><span class="match-percent match-high">92.73%</span></td>
+            <td class="metric-value">0.93</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.88</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gptoss20b_november_2024_prompt2.json</td>
+            <td class="metric-value">811</td>
+            <td class="metric-value">645</td>
+            <td><span class="match-percent match-medium">79.53%</span></td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.63</td>
+            <td class="metric-value">0.57</td>
+            <td class="metric-value">0.59</td>
+        </tr>
+        <tr data-type="updated">
+            <td>gpt_5_mini_november_2024_prompt2.json</td>
+            <td class="metric-value">811</td>
+            <td class="metric-value">640</td>
+            <td><span class="match-percent match-medium">78.91%</span></td>
+            <td class="metric-value">0.79</td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Original Prompt Results</h2>
+            <div class="table-wrapper">
+                <table id="originalTable">
+                    <thead>
+                        <tr>
+                            <th data-sort="model">Model</th>
+                            <th data-sort="total">Total Records</th>
+                            <th data-sort="matches">Matches</th>
+                            <th data-sort="matchpct">Match %</th>
+                            <th data-sort="accuracy">Accuracy</th>
+                            <th data-sort="precision">Precision</th>
+                            <th data-sort="recall">Recall</th>
+                            <th data-sort="f1">F1 Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+        <tr data-type="original">
+            <td>gpt-4o-mini_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">969</td>
+            <td><span class="match-percent match-high">96.90%</span></td>
+            <td class="metric-value">0.97</td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.91</td>
+        </tr>
+        <tr data-type="original">
+            <td>llama33_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">943</td>
+            <td><span class="match-percent match-high">94.30%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.86</td>
+        </tr>
+        <tr data-type="original">
+            <td>openai4o_nov24_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">940</td>
+            <td><span class="match-percent match-high">94.00%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.87</td>
+        </tr>
+        <tr data-type="original">
+            <td>openai4o_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">938</td>
+            <td><span class="match-percent match-high">93.80%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.86</td>
+        </tr>
+        <tr data-type="original">
+            <td>phi4_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">849</td>
+            <td><span class="match-percent match-medium">84.90%</span></td>
+            <td class="metric-value">0.85</td>
+            <td class="metric-value">0.73</td>
+            <td class="metric-value">0.69</td>
+            <td class="metric-value">0.70</td>
+        </tr>
+        <tr data-type="original">
+            <td>deepseek_r1_32b_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">742</td>
+            <td><span class="match-percent match-medium">74.20%</span></td>
+            <td class="metric-value">0.74</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.62</td>
+            <td class="metric-value">0.64</td>
+        </tr>
+        <tr data-type="original">
+            <td>solar-pro_november_2024.json</td>
+            <td class="metric-value">1000</td>
+            <td class="metric-value">330</td>
+            <td><span class="match-percent match-low">33.00%</span></td>
+            <td class="metric-value">0.33</td>
+            <td class="metric-value">0.18</td>
+            <td class="metric-value">0.13</td>
+            <td class="metric-value">0.14</td>
+        </tr>
+        <tr data-type="original">
+            <td>qwq_november_2024.json</td>
+            <td class="metric-value">996</td>
+            <td class="metric-value">800</td>
+            <td><span class="match-percent match-medium">80.32%</span></td>
+            <td class="metric-value">0.80</td>
+            <td class="metric-value">0.77</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="original">
+            <td>mistral_small24b_november_2024.json</td>
+            <td class="metric-value">995</td>
+            <td class="metric-value">810</td>
+            <td><span class="match-percent match-medium">81.41%</span></td>
+            <td class="metric-value">0.81</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.66</td>
+            <td class="metric-value">0.68</td>
+        </tr>
+        <tr data-type="original">
+            <td>gemma2_27b_november_2024.json</td>
+            <td class="metric-value">994</td>
+            <td class="metric-value">822</td>
+            <td><span class="match-percent match-medium">82.70%</span></td>
+            <td class="metric-value">0.83</td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.64</td>
+            <td class="metric-value">0.66</td>
+        </tr>
+        <tr data-type="original">
+            <td>internlm2_november_2024.json</td>
+            <td class="metric-value">992</td>
+            <td class="metric-value">712</td>
+            <td><span class="match-percent match-medium">71.77%</span></td>
+            <td class="metric-value">0.72</td>
+            <td class="metric-value">0.53</td>
+            <td class="metric-value">0.47</td>
+            <td class="metric-value">0.49</td>
+        </tr>
+        <tr data-type="original">
+            <td>claude3_sonnet_november_2024.json</td>
+            <td class="metric-value">985</td>
+            <td class="metric-value">927</td>
+            <td><span class="match-percent match-high">94.11%</span></td>
+            <td class="metric-value">0.94</td>
+            <td class="metric-value">0.88</td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.87</td>
+        </tr>
+        <tr data-type="original">
+            <td>exaone35_november_2024.json</td>
+            <td class="metric-value">960</td>
+            <td class="metric-value">671</td>
+            <td><span class="match-percent match-low">69.90%</span></td>
+            <td class="metric-value">0.70</td>
+            <td class="metric-value">0.51</td>
+            <td class="metric-value">0.44</td>
+            <td class="metric-value">0.47</td>
+        </tr>
+        <tr data-type="original">
+            <td>claude35_haiku_november_2024.json</td>
+            <td class="metric-value">880</td>
+            <td class="metric-value">842</td>
+            <td><span class="match-percent match-high">95.68%</span></td>
+            <td class="metric-value">0.96</td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.89</td>
+            <td class="metric-value">0.88</td>
+        </tr>
+        <tr data-type="original">
+            <td>deepseek_r1_8b_november_2024.json</td>
+            <td class="metric-value">781</td>
+            <td class="metric-value">371</td>
+            <td><span class="match-percent match-low">47.50%</span></td>
+            <td class="metric-value">0.48</td>
+            <td class="metric-value">0.52</td>
+            <td class="metric-value">0.37</td>
+            <td class="metric-value">0.42</td>
+        </tr>
+        <tr data-type="original">
+            <td>llama-3.2-3b-preview_november_2024.json</td>
+            <td class="metric-value">552</td>
+            <td class="metric-value">219</td>
+            <td><span class="match-percent match-low">39.67%</span></td>
+            <td class="metric-value">0.40</td>
+            <td class="metric-value">0.40</td>
+            <td class="metric-value">0.28</td>
+            <td class="metric-value">0.31</td>
+        </tr>
+        <tr data-type="original">
+            <td>llama323b_november_2024.json</td>
+            <td class="metric-value">524</td>
+            <td class="metric-value">303</td>
+            <td><span class="match-percent match-low">57.82%</span></td>
+            <td class="metric-value">0.58</td>
+            <td class="metric-value">0.34</td>
+            <td class="metric-value">0.29</td>
+            <td class="metric-value">0.30</td>
+        </tr>
+        <tr data-type="original">
+            <td>phi3_november_2024.json</td>
+            <td class="metric-value">521</td>
+            <td class="metric-value">191</td>
+            <td><span class="match-percent match-low">36.66%</span></td>
+            <td class="metric-value">0.37</td>
+            <td class="metric-value">0.34</td>
+            <td class="metric-value">0.23</td>
+            <td class="metric-value">0.26</td>
+        </tr>
+        <tr data-type="original">
+            <td>llama318b_november_2024.json</td>
+            <td class="metric-value">507</td>
+            <td class="metric-value">442</td>
+            <td><span class="match-percent match-high">87.18%</span></td>
+            <td class="metric-value">0.87</td>
+            <td class="metric-value">0.73</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="original">
+            <td>mistral_small_november_2024.json</td>
+            <td class="metric-value">502</td>
+            <td class="metric-value">398</td>
+            <td><span class="match-percent match-medium">79.28%</span></td>
+            <td class="metric-value">0.79</td>
+            <td class="metric-value">0.65</td>
+            <td class="metric-value">0.61</td>
+            <td class="metric-value">0.62</td>
+        </tr>
+        <tr data-type="original">
+            <td>gemma2_november_2024.json</td>
+            <td class="metric-value">495</td>
+            <td class="metric-value">426</td>
+            <td><span class="match-percent match-high">86.06%</span></td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.71</td>
+            <td class="metric-value">0.72</td>
+        </tr>
+        <tr data-type="original">
+            <td>mixtral_november_2024.json</td>
+            <td class="metric-value">461</td>
+            <td class="metric-value">420</td>
+            <td><span class="match-percent match-high">91.11%</span></td>
+            <td class="metric-value">0.91</td>
+            <td class="metric-value">0.86</td>
+            <td class="metric-value">0.84</td>
+            <td class="metric-value">0.85</td>
+        </tr>
+        <tr data-type="original">
+            <td>starling-lm_november_2024.json</td>
+            <td class="metric-value">270</td>
+            <td class="metric-value">202</td>
+            <td><span class="match-percent match-medium">74.81%</span></td>
+            <td class="metric-value">0.75</td>
+            <td class="metric-value">0.66</td>
+            <td class="metric-value">0.60</td>
+            <td class="metric-value">0.62</td>
+        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="timestamp">
+            Last Updated: 2025-12-07 03:44:04
+        </div>
+    </div>
+
+    <script>
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        let currentFilter = 'all';
+
+        searchInput.addEventListener('input', filterTable);
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentFilter = this.dataset.filter;
+                filterTable();
+            });
+        });
+
+        function filterTable() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const updatedRows = document.querySelectorAll('#updatedTable tbody tr');
+            const originalRows = document.querySelectorAll('#originalTable tbody tr');
+
+            let visibleCount = 0;
+            let totalCount = 0;
+
+            // Filter updated prompt table
+            updatedRows.forEach(row => {
+                totalCount++;
+                const modelName = row.cells[0].textContent.toLowerCase();
+                const matchesSearch = modelName.includes(searchTerm);
+                const matchesFilter = currentFilter === 'all' || currentFilter === 'updated';
+
+                if (matchesSearch && matchesFilter) {
+                    row.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    row.classList.add('hidden');
+                }
+            });
+
+            // Filter original prompt table
+            originalRows.forEach(row => {
+                totalCount++;
+                const modelName = row.cells[0].textContent.toLowerCase();
+                const matchesSearch = modelName.includes(searchTerm);
+                const matchesFilter = currentFilter === 'all' || currentFilter === 'original';
+
+                if (matchesSearch && matchesFilter) {
+                    row.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    row.classList.add('hidden');
+                }
+            });
+
+            // Update stats
+            document.getElementById('visibleCount').textContent = visibleCount;
+            document.getElementById('totalCount').textContent = totalCount;
+
+            // Show/hide sections based on filter
+            document.querySelectorAll('.section').forEach((section, index) => {
+                if (currentFilter === 'all') {
+                    section.style.display = 'block';
+                } else if (currentFilter === 'updated' && index === 0) {
+                    section.style.display = 'block';
+                } else if (currentFilter === 'original' && index === 1) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+
+        // Sorting functionality
+        document.querySelectorAll('th[data-sort]').forEach(header => {
+            header.addEventListener('click', function() {
+                const table = this.closest('table');
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                const sortKey = this.dataset.sort;
+                const columnIndex = Array.from(this.parentElement.children).indexOf(this);
+
+                // Determine sort direction
+                const isAscending = this.classList.contains('sort-asc');
+
+                // Remove sort classes from all headers in this table
+                table.querySelectorAll('th').forEach(th => {
+                    th.classList.remove('sort-asc', 'sort-desc');
+                });
+
+                // Add appropriate class
+                this.classList.add(isAscending ? 'sort-desc' : 'sort-asc');
+
+                // Sort rows
+                rows.sort((a, b) => {
+                    let aVal = a.cells[columnIndex].textContent;
+                    let bVal = b.cells[columnIndex].textContent;
+
+                    // Parse numbers
+                    if (sortKey !== 'model') {
+                        aVal = parseFloat(aVal.replace('%', '')) || 0;
+                        bVal = parseFloat(bVal.replace('%', '')) || 0;
+                    }
+
+                    if (isAscending) {
+                        return aVal > bVal ? 1 : -1;
+                    } else {
+                        return aVal < bVal ? 1 : -1;
+                    }
+                });
+
+                // Reorder rows in DOM
+                rows.forEach(row => tbody.appendChild(row));
+            });
+        });
+
+        // Initialize stats
+        filterTable();
+    </script>
+</body>
+</html>
