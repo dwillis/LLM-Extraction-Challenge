@@ -51,7 +51,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "New Democrat Coalition Action Fund",
+        "committee": "NewDemocrat Coalition Action Fund",
         "sender": "Elissa",
         "name": "Elissa Slotkin",
         "email": "team@newdemactionfund.com",
@@ -85,7 +85,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "info@freedomfirstalert.com",
@@ -119,7 +119,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "End Citizens United Nonfederal",
+        "committee": "EndCitizens United Nonfederal",
         "sender": null,
         "name": "YES! YES! YES! (FFR)",
         "email": "hello@fightforreform.org",
@@ -153,7 +153,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Kaine for Virginia",
+        "committee": "Kaine forVirginia",
         "sender": "Elissa Slotkin",
         "name": "Elissa Slotkin",
         "email": "info@timkaine.com",
@@ -187,7 +187,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Pennsylvania Democratic Party",
+        "committee": "The Pennsylvania Democratic Party",
         "sender": "Jalen",
         "name": "Jalen Nix, Deputy Executive Director, PA Dems",
         "email": "info@padems.com",
@@ -221,7 +221,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "VOTE BOLICK",
+        "committee": "Vote Bolick",
         "sender": "Shawnna Bolick",
         "name": "Shawnna Bolick",
         "email": "info@bolickforarizona.com",
@@ -307,7 +307,7 @@
     },
     {
         "committee": "BOB CASEY FOR SENATE INC.",
-        "sender": null,
+        "sender": "Team Casey",
         "name": "Team Casey",
         "email": "info@email.bobcasey.com",
         "subject": "Not what you want to see",
@@ -375,7 +375,7 @@
     },
     {
         "committee": "LOFGREN FOR CONGRESS",
-        "sender": "Zoe Lofgren",
+        "sender": "Zoe",
         "name": "zoe (personal)",
         "email": "info@zoelofgren.com",
         "subject": "the last time",
@@ -391,7 +391,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Hung Cao for Virginia",
+        "committee": "Hung Cao forVirginia",
         "sender": "CAPT Hung Cao USN (Ret)",
         "name": "Hung Cao",
         "email": "info@justandfreegop.com",
@@ -409,7 +409,7 @@
     },
     {
         "committee": "Eric Sorensen for Illinois",
-        "sender": "Eric",
+        "sender": "Eric Sorensen",
         "name": "eric sorensen (personal)",
         "email": "info@ericforillinois.com",
         "subject": "help us get out the vote:",
@@ -425,7 +425,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SCHIFF FOR SENATE",
+        "committee": "Schiff for Senate",
         "sender": "Adam Schiff",
         "name": "Adam Schiff",
         "email": "reply@e.adamschiff.com",
@@ -442,7 +442,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS",
+        "committee": "ALEXANDRIA OCASIO-CORTEZ FORCONGRESS",
         "sender": null,
         "name": "Team AOC",
         "email": "speak@ocasiocortez.com",
@@ -544,7 +544,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Kamala Harris",
         "name": "Kamala Harris",
         "email": "info@action.rosenfornevada.com",
@@ -612,7 +612,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TRUTH TO POWER PAC",
+        "committee": "TRUTH TO POWERPAC",
         "sender": "Katie",
         "name": "Katie Porter",
         "email": "info@katieporter.com",
@@ -697,7 +697,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Crucial Battleground State Update",
         "email": "info@g4yamerica.com",
@@ -715,7 +715,7 @@
     },
     {
         "committee": "YASSAMIN ANSARI FOR CONGRESS",
-        "sender": "Yassamin Ansari",
+        "sender": "Team Yassamin",
         "name": "Team Yassamin",
         "email": "info@yassaminforcongress.com",
         "subject": "Two of the most important races in the nation",
@@ -833,8 +833,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Torres For Congress",
-        "sender": "Ritchie Torres",
+        "committee": "TorresFor Congress",
+        "sender": "Ritchie",
         "name": "Ritchie",
         "email": "info@torres.nyc",
         "subject": "We can\u2019t slow down now, Peter",
@@ -901,7 +901,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYs List",
         "sender": "Jessica Mackler",
         "name": "Jessica Mackler, EMILYs List ",
         "email": "information@emilyslist.org",
@@ -919,7 +919,7 @@
     },
     {
         "committee": "National Democratic Redistricting Committee",
-        "sender": null,
+        "sender": "John Bisognano",
         "name": "NDRC Midnight Deadline",
         "email": "info@democraticredistricting.com",
         "subject": "This 2X match is only live for a few more hours",
@@ -987,7 +987,7 @@
     },
     {
         "committee": "TAMMY BALDWIN FOR SENATE",
-        "sender": null,
+        "sender": "Team Baldwin",
         "name": "Team Baldwin",
         "email": "info@e.tammybaldwin.com",
         "subject": "Shortest email in your inbox",
@@ -1020,7 +1020,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "James Carville",
         "name": "Carville, James",
         "email": "info@sherrodbrown.com",
@@ -1054,7 +1054,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Sensible Americans PAC",
+        "committee": "Sensible Americans PAC,LoseCruz.com",
         "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@losecruz.com",
@@ -1071,7 +1071,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Stand with Sanchez",
+        "committee": "Stand with Sanchez Stand with S\u00e1nchez",
         "sender": "Linda S\u00e1nchez",
         "name": "=?utf-8?B?TGluZGEgU8OhbmNoZXo=?=",
         "email": "info@voteforlinda.com",
@@ -1122,7 +1122,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Hunt for Congress",
+        "committee": "Huntfor Congress",
         "sender": "Wesley Hunt",
         "name": "Wesley Hunt",
         "email": "press@wesleyfortexas.com",
@@ -1139,7 +1139,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Association of Secretaries of State",
+        "committee": "Democratic Association of Secretaries of State, Treasurer DeniseMerrill",
         "sender": null,
         "name": "Team DASS",
         "email": "info@democraticsecretaries.org",
@@ -1173,7 +1173,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Hung Cao for Virginia",
+        "committee": "Hung Cao forVirginia",
         "sender": "CAPT Hung Cao USN (Ret)",
         "name": "Hung Cao",
         "email": "info@freedomfirstalert.com",
@@ -1258,8 +1258,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Party of Georgia",
-        "sender": "Catherine Cortez Masto",
+        "committee": "the Democratic Party of Georgia",
+        "sender": "Sen. Catherine Cortez Masto",
         "name": "Catherine Cortez Masto",
         "email": "feedback@georgiademocrat.org",
         "subject": "5 days left",
@@ -1310,7 +1310,7 @@
     },
     {
         "committee": "NRSC",
-        "sender": "Ted Cruz",
+        "sender": "TedCruz",
         "name": "This is Ted Cruz",
         "email": "info@conservativesdefendingfreedom.com",
         "subject": "Donate to my re-election campaign to KEEP TEXAS RED!",
@@ -1326,7 +1326,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TIM SHEEHY FOR MONTANA",
+        "committee": "Tim Sheehy for Montana",
         "sender": "Tim Sheehy",
         "name": "Tim Sheehy",
         "email": "info@itsourgreatamerica.com",
@@ -1344,7 +1344,7 @@
     },
     {
         "committee": "Kaine for Virginia",
-        "sender": null,
+        "sender": "Team Kaine for Virginia",
         "name": "Breaking News VA",
         "email": "info@timkaine.com",
         "subject": "NEW FEC FILING: NRA and NRSC rush money to Hung Cao to defeat Tim Kaine",
@@ -1462,7 +1462,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Colin",
         "name": "C. Allred",
         "email": "info@action.rosenfornevada.com",
@@ -1480,7 +1480,7 @@
     },
     {
         "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "sender": "Sherrod",
         "name": "SB",
         "email": "info@sherrodbrown.com",
         "subject": "this is the shortest email in your inbox",
@@ -1616,7 +1616,7 @@
     },
     {
         "committee": "STEVE GARVEY FOR U.S. SENATE",
-        "sender": "Steve Garvey",
+        "sender": null,
         "name": "Steve Garvey",
         "email": "info@conservativesdefendingfreedom.com",
         "subject": "The final nail in the coffin",
@@ -1632,7 +1632,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Trump Supporter Notification (via NRSC)",
         "email": "info@makingamericathegreatest.com",
@@ -1649,7 +1649,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Senate War Room Alerts",
         "email": "editor@alert.americanlibertyfrontier.com",
@@ -1683,7 +1683,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "NRSC Alerts",
         "email": "editor@alert.americanfrequency.com",
@@ -1717,7 +1717,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Chuck Grassley",
         "name": "Chuck Grassley",
         "email": "editor@alert.minutemanmonitor.com",
@@ -1751,7 +1751,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Ted Cruz: 44% | Colin Allred: 45% [via NRSC]",
         "email": "editor@alert.endamericantyranny.com",
@@ -1785,7 +1785,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Legislative Campaign Committee",
+        "committee": "Democratic Legislative Campaign Committee, dlcc.org",
         "sender": "Team DLCC",
         "name": "Vice President Harris Alert (via DLCC.org)",
         "email": "staff@dlcc.org",
@@ -1853,8 +1853,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Harris for President",
-        "sender": "Team Harris-Walz",
+        "committee": "Harris forPresident",
+        "sender": null,
         "name": "KamalaHarris.com",
         "email": "info@contact.kamalaharris.com",
         "subject": "Time is running out to make your first donation before our midnight deadline",
@@ -1870,7 +1870,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Arizona Democrats",
+        "committee": "ArizonaDemocrats",
         "sender": null,
         "name": "Arizona Democratic Party ",
         "email": "info@azdem.org",
@@ -1922,7 +1922,7 @@
     },
     {
         "committee": "Lucas Kunce for Missouri",
-        "sender": null,
+        "sender": "Lucas Kunce",
         "name": "Team Lucas Kunce",
         "email": "team@lucasformo.com",
         "subject": "it's now or never, Peter.",
@@ -1938,7 +1938,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Emily Randall for Congress",
+        "committee": "EmilyRandall for Congress",
         "sender": "Emily",
         "name": "Emily Randall (personal)",
         "email": "teamemily@electemilyrandall.com",
@@ -1989,7 +1989,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "James Carville",
         "name": "J. Carville",
         "email": "info@action.rosenfornevada.com",
@@ -2108,7 +2108,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Nevada State Democratic Party",
+        "committee": "the Nevada State Democratic Party, NVDEMS.com, not authorized by any candidate or candidate's committee.",
         "sender": "Kamala Harris",
         "name": "Kamala Harris",
         "email": "info@e.nvdems.com",
@@ -2125,7 +2125,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": null,
         "name": "Team Trump - Matching",
         "email": "contact@win.donaldjtrump.com",
@@ -2142,7 +2142,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "NRSC Alerts",
         "email": "editor@republicanmajority.net",
@@ -2160,7 +2160,7 @@
     },
     {
         "committee": "NRSC",
-        "sender": "NRSC Polling Team",
+        "sender": null,
         "name": "Major Development in Your City",
         "email": "editor@editor.conservativebroadcast.net",
         "subject": "Can we count on you to complete this assessment by 11:59 PM tonight?",
@@ -2244,7 +2244,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TEAM SCALISE",
+        "committee": "TEAM SCALISE, a joint fundraising committee authorized by and to benefit SCALISE FOR CONGRESS and EYE OF THE TIGER PAC",
         "sender": "Ryan Zinke",
         "name": "Navy SEAL Ryan Zinke",
         "email": "info@reclamingamericanfreedom.com",
@@ -2380,7 +2380,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "NRSC Alerts",
         "email": "editor@update.insidescooppolitics.org",
@@ -2465,7 +2465,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "Donald J. Trump",
         "name": "Mug from Trump",
         "email": "contact@win.donaldjtrump.com",
@@ -2500,7 +2500,7 @@
     },
     {
         "committee": "NRSC",
-        "sender": "NRSC Polling Team",
+        "sender": null,
         "name": "Major Development in Your City",
         "email": "news@iesp.conservativesgive.com",
         "subject": "We are contacting patriots in your neighborhood to get a lay of the land",
@@ -2516,7 +2516,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRCC",
+        "committee": "the NRCC",
         "sender": "Richard Hudson",
         "name": "Chairman Richard Hudson",
         "email": "news@e.americanbriefing.com",
@@ -2550,7 +2550,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Major Development in Your City",
         "email": "news@iesp.conservativelibertywire.com",
@@ -2567,7 +2567,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Senate GOP War Room",
         "email": "news@iesp.freedomnationtoday.com",
@@ -2635,7 +2635,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRCC",
+        "committee": "the NRCC",
         "sender": "Richard Hudson",
         "name": "Chairman Richard Hudson",
         "email": "news@e.goppresidential.com",
@@ -2652,8 +2652,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
-        "sender": "NRSC Polling Team",
+        "committee": "the NRSC",
+        "sender": null,
         "name": "Major Development in Your City",
         "email": "news@e.1600daily.com",
         "subject": "We are contacting patriots in your neighborhood to get a lay of the land",
@@ -2686,7 +2686,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "DEFEND FREEDOM INC.",
+        "committee": "DEFENDFREEDOM INC.",
         "sender": "Tulsi Gabbard",
         "name": "Tulsi Gabbard",
         "email": "info@reclamingamericanfreedom.com",
@@ -2720,7 +2720,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "news@iesp.conservativesgive.com",
@@ -2771,7 +2771,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": null,
         "name": "Rosen HQ",
         "email": "info@action.rosenfornevada.com",
@@ -2788,7 +2788,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "End Citizens United Nonfederal",
+        "committee": "EndCitizens United Nonfederal",
         "sender": "Fight for Reform",
         "name": "URGENT: Sign Now [FFR]",
         "email": "hello@fightforreform.org",
@@ -2805,7 +2805,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "Sherrod",
         "name": "Sherrod",
         "email": "info@sherrodbrown.com",
@@ -2924,8 +2924,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
-        "sender": "NRSC Polling Team",
+        "committee": "the NRSC",
+        "sender": null,
         "name": "Major Development in Your City",
         "email": "news@e.americanactionnews.com",
         "subject": "Can we count on you to complete this assessment by 11:59 PM tonight?",
@@ -2975,8 +2975,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@sherrodbrown.com",
         "subject": "we might have to cancel our final TV ads",
@@ -3009,7 +3009,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Senate GOP War Room",
         "email": "editor@alert.oldglorytoday.com",
@@ -3026,7 +3026,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "BOB CASEY FOR SENATE INC.",
+        "committee": "Bob Casey for Senate Inc.",
         "sender": "Bob Casey",
         "name": "Bob Casey",
         "email": "info@email.bobcasey.com",
@@ -3264,7 +3264,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Her Bold Move Action",
+        "committee": "Her BoldMove Action",
         "sender": "Jordan Zaslow",
         "name": "Jordan Zaslow",
         "email": "info@herboldmove.org",
@@ -3349,7 +3349,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": null,
         "name": "Team Sherrod",
         "email": "info@sherrodbrown.com",
@@ -3400,7 +3400,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SCHIFF FOR SENATE",
+        "committee": "Schiff for Senate",
         "sender": "Adam Schiff",
         "name": "Adam Schiff",
         "email": "reply@e.adamschiff.com",
@@ -3451,7 +3451,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "BOHANNAN FOR CONGRESS",
+        "committee": "Christina Bohannan for Congress",
         "sender": "Christina Bohannan",
         "name": "Christina (personal)",
         "email": "info@bohannanforcongress.com",
@@ -3486,7 +3486,7 @@
     },
     {
         "committee": "Friends of Jahana Hayes",
-        "sender": "TeamHayes",
+        "sender": null,
         "name": "JahanaHayes.com",
         "email": "info@email.jahanahayes.com",
         "subject": "Pitch in to help get out the vote during Connecticut early voting TODAY",
@@ -3536,7 +3536,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "The Collective PAC",
+        "committee": "the Collective PAC",
         "sender": null,
         "name": "The Collective PAC",
         "email": "info@collectivepac.org",
@@ -3570,7 +3570,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYs List",
         "sender": null,
         "name": "EMILYs List",
         "email": "information@emilyslist.org",
@@ -3638,7 +3638,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NEBRASKA REPUBLICAN PARTY",
+        "committee": "THE NEBRASKA REPUBLICAN PARTY",
         "sender": "Eric Underwood",
         "name": "Chairman Eric Underwood",
         "email": "chairman@ne.gop",
@@ -3673,7 +3673,7 @@
     },
     {
         "committee": "THE REPUBLICAN PARTY OF WISCONSIN",
-        "sender": "WISGOP",
+        "sender": null,
         "name": "Republican Party of Wisconsin",
         "email": "info@wisconsin-gop.com",
         "subject": "Vote Early!\ud83d\udea8",
@@ -3689,7 +3689,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Citizens for Boyle",
+        "committee": "Citizens forBoyle",
         "sender": null,
         "name": "Congressman Brendan Boyle",
         "email": "info@voteboyle.com",
@@ -3740,8 +3740,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Pat Harrigan Committee",
-        "sender": "Team Harrigan",
+        "committee": "The Pat Harrigan Committee",
+        "sender": "Pat Harrigan",
         "name": "Team Harrigan",
         "email": "info@harriganfornc.com",
         "subject": "THREE NUMBERS YOU NEED TO KNOW!",
@@ -3792,7 +3792,7 @@
     },
     {
         "committee": "Hung Cao for Virginia",
-        "sender": "Team Cao",
+        "sender": null,
         "name": "Virginia Patriots",
         "email": "info@hungcaoforva.com",
         "subject": "Will you join President Trump?",
@@ -3808,7 +3808,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "ShontelBrown for Congress",
+        "committee": "Shontel Brown for Congress",
         "sender": "Shontel Brown",
         "name": "Shontel Brown",
         "email": "info@shontelbrown.com",
@@ -3893,7 +3893,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Sen. Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -3910,7 +3910,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump NationalCommittee JFC, Inc.",
         "sender": "JD Vance",
         "name": "JD Vance",
         "email": "contact@support.donaldjtrump.com",
@@ -3944,7 +3944,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Blackburn Tennessee Victory Fund",
+        "committee": "Blackburn Tennessee Victory Fund, a joint fundraising committee authorized by and composed of Marsha for Senate, MARSHA PAC, and Tennessee Republican Party Federal Election Account.",
         "sender": "Marsha Blackburn",
         "name": "Marsha Blackburn",
         "email": "info@updates.marshablackburn.com",
@@ -4012,7 +4012,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Massachusetts Democratic State Committee",
+        "committee": "the Massachusetts Democratic State Committee Massachusetts Democratic Party",
         "sender": null,
         "name": "MassDems Coordinated Campaign",
         "email": "contact@massdems.org",
@@ -4029,7 +4029,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "Sherrod",
         "name": "Brown, Sherrod",
         "email": "info@sherrodbrown.com",
@@ -4063,7 +4063,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Pennsylvania Democratic Party",
+        "committee": "The Pennsylvania Democratic Party",
         "sender": "Mitch",
         "name": "Mitch Kates, Executive Director, PA Dems",
         "email": "info@padems.com",
@@ -4115,7 +4115,7 @@
     },
     {
         "committee": "Adam for Colorado",
-        "sender": "Adam Frisch",
+        "sender": "Adam",
         "name": "Adam Frisch",
         "email": "info@adamforcolorado.com",
         "subject": "Fox News attacked my family",
@@ -4148,7 +4148,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "BUSSE FOR MONTANA",
+        "committee": "BUSSE FOR MONTANA \u2022 DEMOCRAT \u2022 PO BOX 8537 \u2022 KALISPELL, MT 59904",
         "sender": "Ryan Busse",
         "name": "Ryan Busse",
         "email": "info@busseformontana.com",
@@ -4166,7 +4166,7 @@
     },
     {
         "committee": "Pramila for Congress",
-        "sender": null,
+        "sender": "Pramila Jayapal",
         "name": "Jayapal HQ",
         "email": "info@e.pramilaforcongress.com",
         "subject": "We just fell short",
@@ -4182,7 +4182,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "HMP",
+        "committee": "HMP, # [#]",
         "sender": null,
         "name": "900% MATCH UNLOCKED for dpwillis67@gmail.com",
         "email": "info@housemajoritypac.org",
@@ -4200,7 +4200,7 @@
     },
     {
         "committee": "TAMMY BALDWIN FOR SENATE",
-        "sender": "Team Baldwin",
+        "sender": null,
         "name": "Team Baldwin",
         "email": "info@e.tammybaldwin.com",
         "subject": "Four quarters",
@@ -4216,7 +4216,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "California Democratic Party",
+        "committee": "the California Democratic Party",
         "sender": null,
         "name": "California Dems",
         "email": "info@cadem.org",
@@ -4267,7 +4267,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "Turning Point Action",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@bestamericanow.com",
@@ -4302,7 +4302,7 @@
     },
     {
         "committee": "Friends of Dick Durbin",
-        "sender": "TeamDurbin",
+        "sender": "Team Durbin",
         "name": "Team Durbin",
         "email": "info@durbinforsenate.com",
         "subject": "Just $4 is all it takes",
@@ -4318,7 +4318,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Voter Protection Project",
+        "committee": "VoterProtection Project",
         "sender": null,
         "name": "Are you there? (via VPP)",
         "email": "info@e.protectvoting.org",
@@ -4386,7 +4386,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Is your vote secured?",
         "email": "news@e.updatesforgreatamericans.com",
@@ -4488,7 +4488,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Is your vote secured?",
         "email": "news@e.firstlook.news",
@@ -4505,7 +4505,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYs List",
         "sender": null,
         "name": "polling@emilyslist.org",
         "email": "information@emilyslist.org",
@@ -4522,7 +4522,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Fight for Progress PAC",
+        "committee": "Fightfor Progress PAC",
         "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@fightforprogress.org",
@@ -4556,7 +4556,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "Donald J. Trump",
         "name": "President Trump",
         "email": "contact@win.donaldjtrump.com",
@@ -4574,7 +4574,7 @@
     },
     {
         "committee": "Sam Eppler for Congress",
-        "sender": "Team Eppler",
+        "sender": null,
         "name": "Team Eppler",
         "email": "info@sameppler.com",
         "subject": "when the polls close",
@@ -4590,7 +4590,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "news@iesp.fullmagnews.com",
@@ -4624,7 +4624,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "INDIANA REPUBLICAN STATE COMMITTEE",
+        "committee": "THE INDIANA REPUBLICAN STATE COMMITTEE",
         "sender": null,
         "name": "Indiana GOP",
         "email": "info@email.in-gop.com",
@@ -4658,7 +4658,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC.",
         "sender": null,
         "name": "Warning for Patriots",
         "email": "news@e.icyminews.com",
@@ -4676,7 +4676,7 @@
     },
     {
         "committee": "FRIENDS OF KRISTIN FOR WISCONSIN",
-        "sender": null,
+        "sender": "Kristin",
         "name": "Lyerly HQ",
         "email": "info@kristinforwisconsin.com",
         "subject": "Our final chance to get our ads in front of more voters",
@@ -4693,7 +4693,7 @@
     },
     {
         "committee": "Friends of Janelle Stelson",
-        "sender": null,
+        "sender": "Team Stelson",
         "name": "Team Stelson HQ",
         "email": "team@janellestelson.com",
         "subject": "4\ufe0f\u20e3 days to win it",
@@ -4760,8 +4760,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "David Pan for Congress 2024",
-        "sender": null,
+        "committee": "DavidPan for Congress 2024",
+        "sender": "David Pan",
         "name": "David Pan",
         "email": "david@davidpanforcongress.org",
         "subject": "Changing our system one step at a time",
@@ -4777,7 +4777,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Is your vote secured?",
         "email": "news@e.americanactionnews.com",
@@ -4794,8 +4794,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "David Pan for Congress 2024",
-        "sender": null,
+        "committee": "DavidPan for Congress 2024",
+        "sender": "David Pan",
         "name": "David Pan",
         "email": "david@davidpanforcongress.org",
         "subject": "Changing our system one step at a time",
@@ -4811,7 +4811,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "New Democrat Coalition Action Fund",
+        "committee": "NewDemocrat Coalition Action Fund",
         "sender": null,
         "name": "New Dems Political Team",
         "email": "team@newdemactionfund.com",
@@ -4879,7 +4879,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jon",
         "name": "Sen. Jon Tester",
         "email": "info@action.rosenfornevada.com",
@@ -4914,7 +4914,7 @@
     },
     {
         "committee": "Iowans For Zach Nunn",
-        "sender": "Zach Nunn",
+        "sender": null,
         "name": "Election Polling Update",
         "email": "hello@m.conservativeum.com",
         "subject": "Official Election Countdown",
@@ -4930,7 +4930,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "Sherrod Brown",
         "name": "Sherrod Brown HQ",
         "email": "info@sherrodbrown.com",
@@ -4947,7 +4947,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Warning for Patriots",
         "email": "news@e.goppresidential.com",
@@ -4981,8 +4981,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "KAPTUR FOR CONGRESS",
-        "sender": null,
+        "committee": "Kaptur for Congress",
+        "sender": "Team Kaptur HQ",
         "name": "Team Kaptur HQ",
         "email": "info@marcykaptur.com",
         "subject": "The GOP is counting on flipping this seat",
@@ -5049,7 +5049,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democracy on the Line PAC",
+        "committee": "Democracy on the Line PAC(www.democracyonthelinepac.com)",
         "sender": null,
         "name": "LIVE poll (via DOTL)",
         "email": "info@democracyonthelinepac.com",
@@ -5066,7 +5066,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "editor@editor.conservativebroadcast.net",
@@ -5101,7 +5101,7 @@
     },
     {
         "committee": "Harris for President",
-        "sender": null,
+        "sender": "Team Harris-Walz",
         "name": "Team Harris-Walz",
         "email": "info@contact.kamalaharris.com",
         "subject": "Kamala Harris is humbly asking for your first $1 donation to our campaign, Peter.",
@@ -5185,7 +5185,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Leslie Mehta for Congress",
+        "committee": "LESLIE MEHTA FOR CONGRESS",
         "sender": "Leslie Mehta",
         "name": "Leslie Mehta",
         "email": "campaign@lesliemehta.com",
@@ -5202,7 +5202,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Senate Republicans",
         "email": "info@g4yamerica.com",
@@ -5236,7 +5236,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC, Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "JD Vance",
         "name": "JD Vance",
         "email": "contact@support.donaldjtrump.com",
@@ -5254,7 +5254,7 @@
     },
     {
         "committee": "Indiana Democratic Party",
-        "sender": null,
+        "sender": "Indiana Democrats",
         "name": "Indiana Democrats",
         "email": "info@indems.org",
         "subject": "One million Hoosiers (and Saturday voting)",
@@ -5355,7 +5355,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "email@updates.conservativeintel.com",
@@ -5372,7 +5372,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Warning for Patriots",
         "email": "editor@alert.restore-our-nation.com",
@@ -5406,7 +5406,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Ohio Democratic Party",
+        "committee": "the Ohio Democratic Party",
         "sender": "Liz Walters",
         "name": "Liz Walters, ODP Chair  ",
         "email": "info@ohiodems.org",
@@ -5423,7 +5423,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Friends of Katrina Christiansen",
+        "committee": "Friends of KatrinaChristiansen",
         "sender": "Katrina Christiansen",
         "name": "Katrina Christiansen",
         "email": "info@katrinaforussenate.com",
@@ -5474,7 +5474,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Sensible Americans PAC",
+        "committee": "Sensible Americans PAC, LoseCruz.com",
         "sender": "Jon LoseCruz",
         "name": "Jon Tester",
         "email": "info@losecruz.com",
@@ -5543,7 +5543,7 @@
     },
     {
         "committee": "Jason Crow for Congress",
-        "sender": null,
+        "sender": "Team Crow",
         "name": "Team Crow",
         "email": "info@jasoncrowforcongress.com",
         "subject": "4 days left to win",
@@ -5559,8 +5559,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod (personal) ",
         "email": "info@sherrodbrown.com",
         "subject": "I'm reaching out personally because I have nowhere else to turn",
@@ -5627,8 +5627,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Harris for President",
-        "sender": null,
+        "committee": "Harris forPresident",
+        "sender": "Team Harris-Walz",
         "name": "KamalaHarris.com",
         "email": "info@contact.kamalaharris.com",
         "subject": "Your neighbors in Cresco are counting on you!",
@@ -5661,7 +5661,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "John James for Michigan",
+        "committee": "JohnJames for Michigan",
         "sender": "John James",
         "name": "John James HQ - War Room",
         "email": "info@freedomtrainalert.com",
@@ -5763,7 +5763,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "THE REPUBLICAN PARTY OF VIRGINIA",
+        "committee": "The Republican Party of Virginia",
         "sender": "Ken Nunnenkamp",
         "name": "Ken Nunnenkamp",
         "email": "info@rpv.org",
@@ -5780,7 +5780,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Troy Downing for Congress",
+        "committee": "Troy Downing for Congress PO Box 322 Helena, MT 59624",
         "sender": "Troy Downing",
         "name": "Troy Downing",
         "email": "info@updates.troydowning.com",
@@ -5798,7 +5798,7 @@
     },
     {
         "committee": "Sara Rodriguez for Wisconsin",
-        "sender": "Lt. Gov Sara Rodriguez",
+        "sender": "Sara Rodriguez",
         "name": "Lt. Governor Sara Rodriguez",
         "email": "info@saraforwi.com",
         "subject": "It's never been more important to vote",
@@ -5814,7 +5814,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "CHRIS DELUZIO FOR CONGRESS",
+        "committee": "Chris Deluzio for Congress",
         "sender": "Ben Forstate",
         "name": "Ben Forstate, Deluzio HQ ",
         "email": "info@chrisforpa.com",
@@ -5848,7 +5848,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Georgia Blue PAC",
+        "committee": "Georgia Blue PACGeorgia House Democratic Caucus",
         "sender": "Rep. Karen Bennett",
         "name": "Rep. Karen Bennett, GHDC Chair",
         "email": "info@gahousedems.com",
@@ -5916,7 +5916,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky Rosen",
         "name": "Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -5967,7 +5967,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Ted Cruz",
         "name": "Ted Cruz",
         "email": "info@liberty-pulse.com",
@@ -6035,7 +6035,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Working Families Party PAC",
+        "committee": "WorkingFamilies Party PAC",
         "sender": null,
         "name": "Team WFP",
         "email": "reply@workingfamilies.org",
@@ -6053,7 +6053,7 @@
     },
     {
         "committee": "Blackburn Tennessee Victory Fund",
-        "sender": "Marsha Blackburn",
+        "sender": null,
         "name": "Peter",
         "email": "info@updates.marshablackburn.com",
         "subject": "Hello? Are you there?",
@@ -6069,7 +6069,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "UpsetThe Setup PAC",
+        "committee": "UpsetThe Setup PAC ( www.upsetsetup.org [#] )",
         "sender": "John Fetterman",
         "name": "John Fetterman",
         "email": "info@upsetthesetup.org",
@@ -6103,8 +6103,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "April McClain Delaney for Congress",
-        "sender": "April",
+        "committee": "APRILMCCLAIN DELANEY FOR CONGRESS",
+        "sender": "April McClain Delaney",
         "name": "April McClain Delaney",
         "email": "info@april4congress.com",
         "subject": "Our race just got more competitive",
@@ -6120,7 +6120,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "MAXWELL FROST FOR CONGRESS",
+        "committee": "MAXWELL FROST FORCONGRESS",
         "sender": "Maxwell Frost",
         "name": "Maxwell Frost",
         "email": "info@frostforcongress.com",
@@ -6154,7 +6154,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "UPRIGHT PAC",
+        "committee": "UPRIGHTPAC",
         "sender": "Harrison Butker",
         "name": "Harrison Butker",
         "email": "hello@m.conservativeum.com",
@@ -6188,7 +6188,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "Turning Point Action (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@conservativesfordjt.com",
@@ -6206,7 +6206,7 @@
     },
     {
         "committee": "Democratic Legislative Campaign Committee",
-        "sender": null,
+        "sender": "Team DLCC",
         "name": "Deadline Alert (via DLCC.org)",
         "email": "staff@dlcc.org",
         "subject": "5X 5X 5X",
@@ -6222,8 +6222,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
-        "sender": "JD Vance",
+        "committee": "Trump National Committee JFC, Inc.",
+        "sender": "Donald J. Trump",
         "name": "Donald J. Trump & JD Vance",
         "email": "contact@support.donaldjtrump.com",
         "subject": "(1) New connection request",
@@ -6290,8 +6290,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "WHITLOW FOR CONGRESS",
-        "sender": "Team Whitlow",
+        "committee": "Whitlow for Congress",
+        "sender": null,
         "name": "Stuart Whitlow HQ",
         "email": "victory@news.whitlowforcongress.com",
         "subject": "Friend, early voting ends today at 7pm",
@@ -6324,7 +6324,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "LEADERS WE DESERVE",
+        "committee": "Leaders We Deserve",
         "sender": "David Hogg",
         "name": "David Hogg",
         "email": "info@e.leaderswedeserve.com",
@@ -6375,7 +6375,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TIM SHEEHY FOR MONTANA",
+        "committee": "Tim Sheehy for Montana",
         "sender": "Tim Sheehy",
         "name": "Tim Sheehy",
         "email": "info@bestamericanow.com",
@@ -6393,7 +6393,7 @@
     },
     {
         "committee": "Michael B. Moore for South Carolina",
-        "sender": "Team Moore",
+        "sender": null,
         "name": "Team Moore",
         "email": "campaign@michaelbmoore.com",
         "subject": "URGENT: This could decide this election",
@@ -6427,7 +6427,7 @@
     },
     {
         "committee": "Laura Friedman for Congress",
-        "sender": "Laura Friedman",
+        "sender": "Laura",
         "name": "Laura Friedman",
         "email": "info@lauraforcongress.org",
         "subject": "Four. Days. Left.",
@@ -6443,7 +6443,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Faulconer for Supervisor 2024",
+        "committee": "Faulconer for Supervisor 2024 - FPPC ID 1461674",
         "sender": "Kevin Faulconer",
         "name": "Kevin Faulconer",
         "email": "info@kevinfaulconer.com",
@@ -6630,7 +6630,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "Donald J. Trump",
         "name": "President Trump",
         "email": "contact@win.donaldjtrump.com",
@@ -6664,7 +6664,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "newsletter@newsletter.conservativedirect.com",
@@ -6681,7 +6681,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "REPUBLICAN PARTY OF VIRGINIA",
+        "committee": "Republican Party of Virginia",
         "sender": "Ken Nunnenkamp",
         "name": "Ken Nunnenkamp",
         "email": "info@rpv.org",
@@ -6749,8 +6749,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRCC",
-        "sender": null,
+        "committee": "the NRCC",
+        "sender": "House GOP",
         "name": "House Republicans",
         "email": "updates@alerts.therepublicanteam.com",
         "subject": "We only have 4 days left to win Wisconsin",
@@ -6783,7 +6783,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Lucas Kunce for Missouri",
+        "committee": "Lucas Kunce for Missouri.",
         "sender": "Team Lucas Kunce",
         "name": "Team Lucas Kunce",
         "email": "team@lucasformo.com",
@@ -6800,7 +6800,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Trump Majority Alert (via NRSC)",
         "email": "info@redconservatives.com",
@@ -6817,7 +6817,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@freedomtrainalert.com",
@@ -6852,7 +6852,7 @@
     },
     {
         "committee": "Debbie for Florida",
-        "sender": null,
+        "sender": "Team Debbie",
         "name": "Blue Senate Alert",
         "email": "info@e.debbieforflorida.com",
         "subject": "The whole country is watching ...",
@@ -6868,7 +6868,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Sen. Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -6886,7 +6886,7 @@
     },
     {
         "committee": "Lateefah for Congress",
-        "sender": "Lateefah",
+        "sender": "Lateefah Simon",
         "name": "Lateefah Simon ",
         "email": "info@lateefahforcongress.org",
         "subject": "My heart is full of gratitude",
@@ -6919,7 +6919,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "JOSH GOTTHEIMER FOR CONGRESS",
+        "committee": "Josh Gottheimer for Congress",
         "sender": "Josh Gottheimer",
         "name": "Team Gottheimer",
         "email": "info@josh4jersey.com",
@@ -7005,7 +7005,7 @@
     },
     {
         "committee": "BOB CASEY FOR SENATE INC.",
-        "sender": null,
+        "sender": "Team Casey",
         "name": "BC4S HQ",
         "email": "info@email.bobcasey.com",
         "subject": "It\u2019s hard to imagine...",
@@ -7021,7 +7021,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "KEVIN LINCOLN FOR CONGRESS",
+        "committee": "Kevin Lincoln for Congress",
         "sender": "Kevin Lincoln",
         "name": "Kevin Lincoln",
         "email": "info@conservativesfordjt.com",
@@ -7072,7 +7072,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "INDIANA REPUBLICAN STATE COMMITTEE",
+        "committee": "THE INDIANA REPUBLICAN STATE COMMITTEE",
         "sender": "Randy Head",
         "name": "Indiana GOP",
         "email": "info@email.in-gop.com",
@@ -7090,7 +7090,7 @@
     },
     {
         "committee": "Ehasz for Congress",
-        "sender": null,
+        "sender": "Team Ehasz",
         "name": "=?utf-8?B?8J+agSBUZWFtIEVoYXN6IPCfmoE=?=",
         "email": "info@ehaszforcongress.com",
         "subject": "\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591 $20,000 goal",
@@ -7157,7 +7157,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "info@itsourgreatamerica.com",
@@ -7191,8 +7191,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod Brown",
         "name": "Brown, Sherrod",
         "email": "info@sherrodbrown.com",
         "subject": "what your $5 can do to win this election",
@@ -7225,7 +7225,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Mullen For Secretary of State",
+        "committee": "MullenFor Secretary of State",
         "sender": "Jesse Mullen",
         "name": "Jesse James Mullen",
         "email": "info@mullenformontana.com",
@@ -7344,7 +7344,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF KRISTIN FOR WISCONSIN",
+        "committee": "FRIENDS OFKRISTIN FOR WISCONSIN",
         "sender": "Madeleine",
         "name": "Madeleine (via Kristin for Wisconsin)",
         "email": "info@kristinforwisconsin.com",
@@ -7362,7 +7362,7 @@
     },
     {
         "committee": "MONDAIRE FOR CONGRESS",
-        "sender": null,
+        "sender": "Team Mondaire",
         "name": "Team Mondaire",
         "email": "info@mondaireforcongress.com",
         "subject": "Tonight\u2019s final debate",
@@ -7446,7 +7446,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYSLIST WWW.EMILYSLIST.ORG",
         "sender": null,
         "name": "Elect Women HQ",
         "email": "information@emilyslist.org",
@@ -7463,7 +7463,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@conservativesdefendingfreedom.com",
@@ -7497,7 +7497,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Legislative Campaign Committee",
+        "committee": "the Democratic Legislative Campaign Committee, dlcc.org",
         "sender": null,
         "name": "Match Alert (via DLCC.org)",
         "email": "staff@dlcc.org",
@@ -7531,7 +7531,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TEAM SCALISE",
+        "committee": "TEAM SCALISE, a joint fundraising committee authorized by and to benefit SCALISE FOR CONGRESS and EYE OF THE TIGER PAC.",
         "sender": "Steve Scalise",
         "name": "=?UTF-8?Q?OFFICIAL_REPUBLICAN_COMMUNICATION_=E2=80=93_From_Team_Scalise?=",
         "email": "info@makingamericathegreatest.com",
@@ -7565,7 +7565,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Sensible Americans PAC",
+        "committee": "Sensible Americans PAC, LoseCruz.com",
         "sender": "Jon",
         "name": "Jon Tester",
         "email": "info@losecruz.com",
@@ -7583,7 +7583,7 @@
     },
     {
         "committee": "Joyce Craig for NH",
-        "sender": "Joyce",
+        "sender": "Joyce Craig",
         "name": "Joyce Craig",
         "email": "info@joycecraig.org",
         "subject": "quickly",
@@ -7616,7 +7616,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Defeat Boebert PAC",
+        "committee": "DefeatBoebert PAC",
         "sender": "James Carville",
         "name": "James Carville",
         "email": "info@defeatboebertpac.com",
@@ -7634,7 +7634,7 @@
     },
     {
         "committee": "Friends of Jahana Hayes",
-        "sender": "Team Hayes",
+        "sender": null,
         "name": "JahanaHayes.com",
         "email": "info@email.jahanahayes.com",
         "subject": "The situation and the solution",
@@ -7752,7 +7752,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Colin",
         "name": "Colin Allred",
         "email": "info@action.rosenfornevada.com",
@@ -7837,7 +7837,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Sam Eppler for Congress",
+        "committee": "SamEppler for Congress",
         "sender": "Sam Eppler",
         "name": "Sam ",
         "email": "info@sameppler.com",
@@ -8075,7 +8075,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "VOTE BOLICK",
+        "committee": "Vote Bolick",
         "sender": "Shawnna Bolick",
         "name": "Shawnna Bolick",
         "email": "info@bolickforarizona.com",
@@ -8092,8 +8092,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Legislative Campaign Committee",
-        "sender": "Team DLCC",
+        "committee": "the Democratic Legislative Campaign Committee, dlcc.org.",
+        "sender": null,
         "name": "Vice President Harris Update (via DLCC.org)",
         "email": "staff@dlcc.org",
         "subject": "re: Vice President",
@@ -8110,7 +8110,7 @@
     },
     {
         "committee": "Lucas Kunce for Missouri",
-        "sender": "Team Gallego",
+        "sender": null,
         "name": "Gallego for Arizona",
         "email": "team@lucasformo.com",
         "subject": "There have been very few times when your donation could have a greater impact than right now",
@@ -8126,7 +8126,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Pennsylvania Democratic Party",
+        "committee": "The Pennsylvania Democratic Party",
         "sender": null,
         "name": "PA Democratic Party",
         "email": "info@padems.org",
@@ -8228,7 +8228,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Ohio Democratic Party",
+        "committee": "the Ohio Democratic Party",
         "sender": "Sherrod Brown",
         "name": " Sherrod",
         "email": "info@ohiodems.org",
@@ -8262,7 +8262,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Jill Stein for President 2024",
+        "committee": "JillStein for President 2024",
         "sender": null,
         "name": "Jill Stein for President",
         "email": "info@jillstein2024.com",
@@ -8313,7 +8313,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Friends of Katrina Christiansen",
+        "committee": "Friends of KatrinaChristiansen",
         "sender": "Kristin Lyerly",
         "name": "Kristin Lyerly",
         "email": "info@katrinaforussenate.com",
@@ -8381,7 +8381,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Nevada State Democratic Party",
+        "committee": "the Nevada State Democratic Party, NVDEMS.com",
         "sender": null,
         "name": "NV Dems",
         "email": "info@e.nvdems.com",
@@ -8416,7 +8416,7 @@
     },
     {
         "committee": "SHARICE FOR CONGRESS",
-        "sender": "Team Sharice",
+        "sender": null,
         "name": "Team Sharice",
         "email": "campaign@e.shariceforcongress.com",
         "subject": "Will you rush a $10 donation?",
@@ -8432,7 +8432,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "The Collective PAC",
+        "committee": "the Collective PAC",
         "sender": null,
         "name": "The Collective PAC",
         "email": "info@collectivepac.org",
@@ -8449,7 +8449,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "email@updates.conservativeintel.com",
@@ -8466,7 +8466,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Ted Cruz",
         "name": "Ted Cruz",
         "email": "info@justandfreegop.com",
@@ -8534,7 +8534,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TEAM SCALISE",
+        "committee": "TEAM SCALISE, a joint fundraising committee authorized by and to benefit SCALISE FOR CONGRESS and EYE OF THE TIGER PAC.",
         "sender": "Steve Scalise",
         "name": "=?UTF-8?Q?OFFICIAL_REPUBLICAN_COMMUNICATION_=E2=80=93_From_Team_Scalise?=",
         "email": "info@conservativesfordjt.com",
@@ -8585,8 +8585,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "STEVE GARVEY FOR U.S. SENATE",
-        "sender": null,
+        "committee": "STEVEGARVEY FOR U.S. SENATE",
+        "sender": "Steve Garvey",
         "name": "Steve Garvey",
         "email": "info@itsourgreatamerica.com",
         "subject": "The most important week",
@@ -8603,7 +8603,7 @@
     },
     {
         "committee": "Emilia Sykes for Congress",
-        "sender": "Team Sykes",
+        "sender": null,
         "name": "Team Sykes",
         "email": "info@emiliasykesforcongress.com",
         "subject": "Trump just endorsed Emilia\u2019s opponent \u2192",
@@ -8636,8 +8636,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@sherrodbrown.com",
         "subject": "this is a truly critical moment for our ads",
@@ -8653,7 +8653,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS",
+        "committee": "Alexandria Ocasio-Cortez for Congress",
         "sender": "Alexandria Ocasio-Cortez",
         "name": "AOC",
         "email": "speak@ocasiocortez.com",
@@ -8670,7 +8670,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "End Citizens United Nonfederal",
+        "committee": "End Citizens United-Nonfederal",
         "sender": "Sherrod Brown",
         "name": "Sherrod Brown",
         "email": "hello@fightforreform.org",
@@ -8721,7 +8721,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democracy on the Line PAC",
+        "committee": "Democracy on the Line PAC (www.democracyonthelinepac.com)",
         "sender": "Matt",
         "name": "are you there!?! [DOTL]",
         "email": "info@democracyonthelinepac.com",
@@ -8772,7 +8772,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Defeat Boebert PAC",
+        "committee": "DefeatBoebert PAC",
         "sender": null,
         "name": "Defeat Boebert PAC",
         "email": "info@defeatboebertpac.com",
@@ -8823,7 +8823,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada Rosen for Nevada",
         "sender": "Jacky",
         "name": "Sen. Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -8943,7 +8943,7 @@
     },
     {
         "committee": "BOB CASEY FOR SENATE INC.",
-        "sender": null,
+        "sender": "Team Casey",
         "name": "Team Casey",
         "email": "info@email.bobcasey.com",
         "subject": "Join Bob Casey for Senate on Election Night in Scranton!",
@@ -8993,7 +8993,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "info@freedomfirstalert.com",
@@ -9027,7 +9027,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Mark Takano For Congress",
+        "committee": "Mark Takano ForCongress",
         "sender": "Mark Takano",
         "name": "Mark Takano",
         "email": "info@marktakano.com",
@@ -9045,7 +9045,7 @@
     },
     {
         "committee": "Hung Cao for Virginia",
-        "sender": "Hung Cao",
+        "sender": "CAPT Hung Cao, USN (Ret)",
         "name": "Hung Cao",
         "email": "info@g4yamerica.com",
         "subject": "Knock knock knock",
@@ -9078,7 +9078,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Indiana Democratic Party",
+        "committee": "the IndianaDemocratic Party, www.indems.org.",
         "sender": "Frank Mrvan",
         "name": "Frank Mrvan",
         "email": "info@indems.org",
@@ -9129,7 +9129,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Kaine for Virginia",
+        "committee": "Kaine forVirginia",
         "sender": "Ruben Gallego",
         "name": "Ruben Gallego",
         "email": "info@timkaine.com",
@@ -9248,8 +9248,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod",
         "email": "info@sherrodbrown.com",
         "subject": "it's time to leave it all on the field",
@@ -9266,7 +9266,7 @@
     },
     {
         "committee": "Engel for Arizona",
-        "sender": null,
+        "sender": "Team Engel",
         "name": "Team Engel",
         "email": "info@kirstenengel.com",
         "subject": "Our hard work is paying off",
@@ -9316,7 +9316,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "JUSTICE DEMOCRATS",
+        "committee": "Justice Democrats",
         "sender": "Prem Thakker",
         "name": "Justice Democrats",
         "email": "us@list.justicedemocrats.com",
@@ -9334,7 +9334,7 @@
     },
     {
         "committee": "Debbie for Florida",
-        "sender": "Debbie",
+        "sender": null,
         "name": "Debbie, me",
         "email": "info@e.debbieforflorida.com",
         "subject": "I'm putting my record up against Rick Scott's",
@@ -9367,7 +9367,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC, Inc.",
         "sender": "Donald J. Trump",
         "name": "Donald J. Trump",
         "email": "contact@support.donaldjtrump.com",
@@ -9385,7 +9385,7 @@
     },
     {
         "committee": "BOB CASEY FOR SENATE INC.",
-        "sender": "Bob Casey HQ",
+        "sender": null,
         "name": "Bob Casey HQ",
         "email": "info@email.bobcasey.com",
         "subject": "The worst news yet",
@@ -9418,7 +9418,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TRUTH TO POWER PAC",
+        "committee": "TRUTH TO POWERPAC",
         "sender": "Katie",
         "name": "Katie Porter",
         "email": "info@katieporter.com",
@@ -9554,7 +9554,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Harris for President",
+        "committee": "Harris forPresident",
         "sender": null,
         "name": "Kamala HQ",
         "email": "info@contact.kamalaharris.com",
@@ -9588,7 +9588,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "Turning Point Action",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@itsourgreatamerica.com",
@@ -9622,7 +9622,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Lucas Kunce for Missouri",
+        "committee": "Lucas Kunce for Missouri.",
         "sender": "Lucas Tyree Kunce",
         "name": "Lucas Tyree Kunce",
         "email": "team@lucasformo.com",
@@ -9690,8 +9690,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
-        "sender": "Team Rosen",
+        "committee": "Rosenfor Nevada",
+        "sender": null,
         "name": "Team Rosen",
         "email": "info@action.rosenfornevada.com",
         "subject": "BREAKING: ONE POINT DOWN",
@@ -9725,7 +9725,7 @@
     },
     {
         "committee": "Hung Cao for Virginia",
-        "sender": "CAPT Hung Cao, USN (Ret)",
+        "sender": "Hung Cao",
         "name": "Hung Cao",
         "email": "info@conservativesdefendingfreedom.com",
         "subject": "Knock knock knock",
@@ -9758,7 +9758,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "Sherrod Brown",
         "name": "Sen. Sherrod Brown",
         "email": "info@sherrodbrown.com",
@@ -9775,7 +9775,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "The Real Texas PAC",
+        "committee": "The RealTexas PAC",
         "sender": null,
         "name": "The Real Texas PAC",
         "email": "info@realtexaspac.com",
@@ -9860,7 +9860,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "End Citizens United Nonfederal",
+        "committee": "EndCitizens United Nonfederal",
         "sender": "Jon Tester",
         "name": "Jon Tester",
         "email": "hello@fightforreform.org",
@@ -9895,7 +9895,7 @@
     },
     {
         "committee": "Eric Sorensen for Illinois",
-        "sender": "Eric Sorensen",
+        "sender": "Eric",
         "name": "Eric Sorensen",
         "email": "info@mail.ericforillinois.com",
         "subject": "Joe McGraw\u2019s not from here",
@@ -9911,7 +9911,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "Donald J. Trump",
         "name": "Donald J. Trump",
         "email": "contact@win.donaldjtrump.com",
@@ -9962,7 +9962,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Friends of Melissa Chaudhry for Congress",
+        "committee": null,
         "sender": null,
         "name": "Melissa Chaudhry for Congress",
         "email": "melissa@melissa4congress.ccsend.com",
@@ -10014,7 +10014,7 @@
     },
     {
         "committee": "Trisha 4 Colorado",
-        "sender": "Team Trisha",
+        "sender": null,
         "name": "Defeat Lauren Boebert",
         "email": "info@trisha4co.com",
         "subject": "absolutely infuriating",
@@ -10047,7 +10047,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump NationalCommittee JFC Inc.",
         "sender": "Donald J. Trump",
         "name": "Donald J. Trump",
         "email": "hello@m.conservativeum.com",
@@ -10115,7 +10115,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYs List",
         "sender": "Ben Ray",
         "name": "Ben Ray, EMILYs List",
         "email": "information@emilyslist.org",
@@ -10150,7 +10150,7 @@
     },
     {
         "committee": "Derek Tran for Congress",
-        "sender": "Derek Tran",
+        "sender": "Derek",
         "name": "Derek",
         "email": "info@derektranforcongress.com",
         "subject": "Thank you for standing with me",
@@ -10183,7 +10183,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Ted Cruz for Senate",
+        "committee": "Ted Cruz forSenate",
         "sender": null,
         "name": "Ted Cruz",
         "email": "info@freedomfirstalert.com",
@@ -10234,7 +10234,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Nevada State Democratic Party",
+        "committee": "the Nevada State Democratic Party, NVDEMS.com, not authorized by any candidate or candidate's committee.",
         "sender": "Jacky Rosen",
         "name": "Jacky Rosen",
         "email": "info@e.nvdems.com",
@@ -10336,7 +10336,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Kean for Congress Inc",
+        "committee": "Keanfor Congress Inc",
         "sender": "Tom Kean",
         "name": "Madi V. (Kean Finance Director)",
         "email": "info@outreach.tomkean.com",
@@ -10370,7 +10370,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rubio Victory Committee",
+        "committee": "Rubio VictoryCommittee",
         "sender": "Marco Rubio",
         "name": "Senator Marco Rubio",
         "email": "info@conservativesdefendingfreedom.com",
@@ -10388,7 +10388,7 @@
     },
     {
         "committee": "Torres For Congress",
-        "sender": "Ritchie Torres",
+        "sender": "Ritchie",
         "name": "Ritchie Torres",
         "email": "info@torres.nyc",
         "subject": "why we fight",
@@ -10455,7 +10455,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SCHIFF FOR SENATE",
+        "committee": "Schiff for Senate",
         "sender": "Adam Schiff",
         "name": "Adam Schiff",
         "email": "reply@e.adamschiff.com",
@@ -10472,8 +10472,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": null,
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Team Sherrod",
         "name": "sherrodbrown.com",
         "email": "info@sherrodbrown.com",
         "subject": "if you care about Democrats keeping the Senate, you'll open this email",
@@ -10490,7 +10490,7 @@
     },
     {
         "committee": "Marie for Congress",
-        "sender": "Marie",
+        "sender": "Marie Gluesenkamp Perez",
         "name": "(1) MarieForCongress.com",
         "email": "info@marieforcongress.com",
         "subject": "big weekend ahead",
@@ -10506,7 +10506,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC, Inc.",
         "sender": "JD Vance",
         "name": "JD Vance",
         "email": "contact@support.donaldjtrump.com",
@@ -10608,7 +10608,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Mark Takano For Congress",
+        "committee": "Mark Takano ForCongress",
         "sender": "Mark Takano",
         "name": "Mark Takano",
         "email": "info@marktakano.com",
@@ -10642,7 +10642,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Sen. Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -10693,7 +10693,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Voter Protection Project",
+        "committee": "VoterProtection Project",
         "sender": null,
         "name": "Stand with Jack Smith! (VPP)",
         "email": "info@e.protectvoting.org",
@@ -10728,7 +10728,7 @@
     },
     {
         "committee": "Andrea Salinas for Oregon",
-        "sender": null,
+        "sender": "Team Salinas",
         "name": "Team Salinas",
         "email": "campaign@andreasalinasfororegon.com",
         "subject": "We're in the final stretch",
@@ -10778,7 +10778,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "(1) New Message",
         "email": "editor@alert.americanfrequency.com",
@@ -10812,7 +10812,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "NRSC Election Integrity Team",
         "email": "editor@alert.americanlibertyfrontier.com",
@@ -10829,7 +10829,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Warning for Patriots",
         "email": "editor@alert.redwavenewswire.com",
@@ -10846,7 +10846,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Mike Pompeo",
         "name": "Mike Pompeo",
         "email": "editor@alert.minutemanmonitor.com",
@@ -10863,8 +10863,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Mike Johnson for Louisiana",
-        "sender": "Mike Johnson",
+        "committee": "MikeJohnson for Louisiana",
+        "sender": "Speaker Mike Johnson",
         "name": "Mike Johnson",
         "email": "info@freedomfirstalert.com",
         "subject": "I\u2019ve emailed and I\u2019ve texted - is it getting through..?",
@@ -10982,8 +10982,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Lucas Kunce for Missouri",
-        "sender": null,
+        "committee": "Lucas Kunce for Missouri.",
+        "sender": "Lucas Kunce",
         "name": "Lucas Kunce HQ",
         "email": "team@lucasformo.com",
         "subject": "Missouri needs a Senator, not a swamp creature.",
@@ -11000,7 +11000,7 @@
     },
     {
         "committee": "End Citizens United Nonfederal",
-        "sender": null,
+        "sender": "Fight for Reform",
         "name": "bumping!",
         "email": "hello@fightforreform.org",
         "subject": "We need you to stand with Jack Smith",
@@ -11033,8 +11033,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": null,
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Team Sherrod",
         "name": "Team Sherrod",
         "email": "info@sherrodbrown.com",
         "subject": "urgent message from Sherrod",
@@ -11135,7 +11135,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -11169,7 +11169,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC, Inc.",
         "sender": "Donald J. Trump",
         "name": "President Trump",
         "email": "contact@support.donaldjtrump.com",
@@ -11271,7 +11271,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TIM SHEEHY FOR MONTANA",
+        "committee": "Tim Sheehy for Montana",
         "sender": "Tim Sheehy",
         "name": "Tim Sheehy",
         "email": "info@itsourgreatamerica.com",
@@ -11306,7 +11306,7 @@
     },
     {
         "committee": "Harris for President",
-        "sender": "Kamala HQ",
+        "sender": null,
         "name": "Kamala HQ",
         "email": "info@contact.kamalaharris.com",
         "subject": "Outspent, tied, and falling short.",
@@ -11322,8 +11322,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod (personal)",
         "email": "info@sherrodbrown.com",
         "subject": "I wouldn't email you on a Friday night if it wasn't important",
@@ -11475,7 +11475,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Legislative Campaign Committee",
+        "committee": "the Democratic Legislative Campaign Committee, dlcc.org",
         "sender": null,
         "name": "State Democrats (via DLCC.org)",
         "email": "staff@dlcc.org",
@@ -11510,7 +11510,7 @@
     },
     {
         "committee": "Voter Protection Project",
-        "sender": null,
+        "sender": "The Voter Protection Project",
         "name": "[11:00PM] Senate (via VPP)",
         "email": "info@e.protectvoting.org",
         "subject": "Are you abandoning Democrats?!!",
@@ -11577,7 +11577,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -11612,7 +11612,7 @@
     },
     {
         "committee": "Voter Protection Project",
-        "sender": null,
+        "sender": "The Voter Protection Project Polling Team",
         "name": "RAPID RESPONSE POLL (VPP)",
         "email": "info@e.protectvoting.org",
         "subject": "re: Trump tells swing states to REJECT votes?!",
@@ -11679,7 +11679,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "editor@alert.restore-our-nation.com",
@@ -11696,7 +11696,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Tom Cotton",
         "name": "Tom Cotton",
         "email": "editor@editor.conservativebroadcast.net",
@@ -11730,7 +11730,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "news@iesp.conservativelibertywire.com",
@@ -11747,7 +11747,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Tom Cotton",
         "name": "Tom Cotton",
         "email": "news@iesp.freedomnationtoday.com",
@@ -11781,7 +11781,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Confirm your ballot >>",
         "email": "news@e.americanactionnews.com",
@@ -11866,7 +11866,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Voter Protection Project",
+        "committee": "VoterProtection Project",
         "sender": null,
         "name": "2024 Senate Fund (via VPP)",
         "email": "info@e.protectvoting.org",
@@ -11883,7 +11883,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Tom Cotton",
         "email": "editor@update.insidescooppolitics.org",
@@ -11951,7 +11951,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Crucial Battleground State Update",
         "email": "news@iesp.conservativelibertywire.com",
@@ -11968,7 +11968,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Tom Cotton",
         "name": "Tom Cotton",
         "email": "news@iesp.conservativesgive.com",
@@ -11985,7 +11985,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Legislative Campaign Committee",
+        "committee": "Democratic Legislative Campaign Committee, dlcc.org",
         "sender": null,
         "name": "Your Donor Record (via DLCC.org)",
         "email": "staff@dlcc.org",
@@ -12002,7 +12002,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "Donald J. Trump",
         "name": "Mugs From Trump - Limited Edition Release",
         "email": "contact@win.donaldjtrump.com",
@@ -12036,7 +12036,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Tom Cotton",
         "name": "Tom Cotton",
         "email": "news@e.trumptrainnews.com",
@@ -12053,7 +12053,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "news@e.updateforamerica.com",
@@ -12070,7 +12070,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "news@e.goppresidential.com",
@@ -12087,7 +12087,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "news@e.1600daily.com",
@@ -12104,7 +12104,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Ballot Confirmation Audit",
         "email": "news@e.icyminews.com",
@@ -12121,7 +12121,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "news@iesp.defend-the-constitution.org",
@@ -12138,7 +12138,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "news@iesp.fullmagnews.com",
@@ -12155,7 +12155,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Tom Cotton",
         "name": "Tom Cotton",
         "email": "patriot@e.youramerica.news",
@@ -12240,7 +12240,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NATIONAL REDISTRICTING ACTION FUND",
+        "committee": "THE NATIONAL REDISTRICTING ACTION FUND",
         "sender": "Vic",
         "name": "Vic, All On The Line",
         "email": "allontheline@redistrictingaction.org",
@@ -12257,7 +12257,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TEAM SCALISE",
+        "committee": "TEAM SCALISE, a joint fundraising committee authorized by and to benefit SCALISE FOR CONGRESS and EYE OF THE TIGER PAC.",
         "sender": "Steve Scalise",
         "name": "Majority Leader Scalise",
         "email": "news@e.americanbriefing.com",
@@ -12308,7 +12308,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": null,
         "name": "Final Deadline",
         "email": "news@e.icyminews.com",
@@ -12394,7 +12394,7 @@
     },
     {
         "committee": "Troy Downing for Congress",
-        "sender": "Team Anderson",
+        "sender": "TeamAnderson",
         "name": "Team Anderson",
         "email": "info@updates.troydowning.com",
         "subject": "TRUMP-HATING EUGENE VINDMAN JUST CROSSED THE LINE",
@@ -12478,7 +12478,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Indiana Democratic Party",
+        "committee": "the IndianaDemocratic Party, www.indems.org.",
         "sender": null,
         "name": "INDEMS",
         "email": "info@indems.org",
@@ -12546,7 +12546,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "Sherrod Brown",
         "name": "Sherrod",
         "email": "info@sherrodbrown.com",
@@ -12597,7 +12597,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC, Inc.",
         "sender": "Donald J. Trump",
         "name": "Donald J. Trump",
         "email": "contact@support.donaldjtrump.com",
@@ -12648,7 +12648,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "info@americanlibertyalert.com",
@@ -12666,7 +12666,7 @@
     },
     {
         "committee": "Ohio Democratic Party",
-        "sender": "The Ohio Dems",
+        "sender": null,
         "name": "The Ohio Dems   ",
         "email": "info@ohiodems.org",
         "subject": "It's about so much more than a few bucks",
@@ -12733,7 +12733,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Bernie Moreno for Senate",
+        "committee": "Bernie Moreno forSenate",
         "sender": "Don Jr.",
         "name": "Donald Trump Jr.",
         "email": "info@conservativesdefendingfreedom.com",
@@ -12784,7 +12784,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Unite the Country",
+        "committee": "Unitethe Country",
         "sender": null,
         "name": "=?utf-8?B?4o+wIENPVU5URE9XTiBUTyBFLURBWSAodmlhIFVuaXRlIHRoZSBDb3Vu?= =?utf-8?B?dHJ5KQ==?=",
         "email": "finance@unitethecountry.com",
@@ -12869,7 +12869,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "editor@alert.oldglorytoday.com",
@@ -12903,8 +12903,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@sherrodbrown.com",
         "subject": "I'm waiting on your help, friend",
@@ -12920,7 +12920,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Pat Harrigan Committee",
+        "committee": "The Pat Harrigan Committee",
         "sender": "Pat Harrigan",
         "name": "Pat Harrigan",
         "email": "info@harriganfornc.com",
@@ -12937,7 +12937,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "BOHANNAN FOR CONGRESS",
+        "committee": "Christina Bohannan for Congress",
         "sender": "Jindalae Suh",
         "name": "Jindalae Suh, Team Bohannan",
         "email": "info@bohannanforcongress.com",
@@ -12954,7 +12954,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "April McClain Delaney for Congress",
+        "committee": "APRILMCCLAIN DELANEY FOR CONGRESS",
         "sender": "April McClain Delaney",
         "name": "April McClain Delaney",
         "email": "info@april4congress.com",
@@ -12989,7 +12989,7 @@
     },
     {
         "committee": "Mike Johnson for Louisiana",
-        "sender": "Mike Johnson",
+        "sender": "Speaker Mike Johnson",
         "name": "Mike Johnson",
         "email": "info@freedomtrainalert.com",
         "subject": "This is the final push",
@@ -13006,7 +13006,7 @@
     },
     {
         "committee": "Scholten for Congress",
-        "sender": null,
+        "sender": "Team Scholten",
         "name": "Team Scholten ",
         "email": "info@hillaryscholten.com",
         "subject": "running on all cylinders! \ud83d\udcc5",
@@ -13039,7 +13039,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Upset The Setup PAC",
+        "committee": "Upset The Setup PAC (www.upsetsetup.org)",
         "sender": null,
         "name": "Team UTS",
         "email": "info@upsetthesetup.org",
@@ -13056,7 +13056,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -13124,7 +13124,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "Turning Point Action",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@ourdefenseofamerica.com",
@@ -13158,8 +13158,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rogers for Senate",
-        "sender": "Team Rogers",
+        "committee": "Rogers forSenate",
+        "sender": null,
         "name": "Team Rogers",
         "email": "info@rogersforsenate.com",
         "subject": "Message from Mike RE: \u201cGARBAGE\u201d",
@@ -13176,7 +13176,7 @@
     },
     {
         "committee": "Hung Cao for Virginia",
-        "sender": "Hung Cao",
+        "sender": "CAPT Hung Cao USN (Ret)",
         "name": "CAPT Hung Cao",
         "email": "info@hungcaoforva.com",
         "subject": "\ud83d\udea8Trump Rally Alert",
@@ -13209,7 +13209,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "LEADERS WE DESERVE",
+        "committee": "LEADERS WE DESERVE,LEADERSWEDESERVE.COM",
         "sender": null,
         "name": "Leaders We Deserve",
         "email": "info@e.leaderswedeserve.com",
@@ -13226,7 +13226,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Collective PAC",
+        "committee": "the Collective PAC",
         "sender": null,
         "name": "The Collective PAC",
         "email": "info@collectivepac.org",
@@ -13329,7 +13329,7 @@
     },
     {
         "committee": "Servant Leadership Fund",
-        "sender": null,
+        "sender": "Michael Waltz",
         "name": "BREAKING MAGA UPDATE",
         "email": "info@mwaltzforcongress.com",
         "subject": "We uncovered Democrats\u2019 plan to STEAL the election!",
@@ -13362,7 +13362,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Her Bold Move Action",
+        "committee": "Her BoldMove Action",
         "sender": "AnnaSophia Rowe",
         "name": "Anna Sophia Rowe",
         "email": "info@herboldmove.org",
@@ -13396,7 +13396,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "theNRSC",
         "sender": "NRSC Polling Updates",
         "name": "NRSC Polling Updates",
         "email": "info@g4yamerica.com",
@@ -13413,7 +13413,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Kaine for Virginia",
+        "committee": "Kainefor Virginia",
         "sender": "Julia Louis-Dreyfus",
         "name": "Julia Louis-Dreyfus",
         "email": "info@timkaine.com",
@@ -13498,7 +13498,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Legislative Campaign Committee",
+        "committee": "the Democratic Legislative Campaign Committee, dlcc.org.",
         "sender": null,
         "name": "Team DLCC",
         "email": "staff@dlcc.org",
@@ -13600,7 +13600,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Pennsylvania Democratic Party",
+        "committee": "The Pennsylvania Democratic Party",
         "sender": "Jalen",
         "name": "Jalen Nix, Deputy Executive Director, PA Dems",
         "email": "info@padems.com",
@@ -13634,7 +13634,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "CHRIS DELUZIO FOR CONGRESS",
+        "committee": "Chris Deluzio for Congress",
         "sender": "Chris Deluzio",
         "name": "Chris Deluzio",
         "email": "info@chrisforpa.com",
@@ -13669,7 +13669,7 @@
     },
     {
         "committee": "National Democratic Redistricting Committee",
-        "sender": null,
+        "sender": "John Bisognano",
         "name": "NDRC HQ",
         "email": "info@democraticredistricting.com",
         "subject": "Sabato\u2019s Crystal Ball: 6 new toss-ups",
@@ -13736,7 +13736,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYs List",
         "sender": "Tammy Baldwin",
         "name": "Tammy Baldwin",
         "email": "information@emilyslist.org",
@@ -13770,7 +13770,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Harris for President",
+        "committee": "Harris forPresident",
         "sender": "Doug Emhoff",
         "name": "Doug Emhoff",
         "email": "info@contact.kamalaharris.com",
@@ -13872,7 +13872,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF KRISTIN FOR WISCONSIN",
+        "committee": "Friends of Kristin for Wisconsin",
         "sender": "Kristin",
         "name": "Kristin Lyerly",
         "email": "info@kristinforwisconsin.com",
@@ -13889,7 +13889,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Fetterman for PA",
+        "committee": "Fetterman for PA.",
         "sender": "John Fetterman",
         "name": "John Fetterman",
         "email": "info@e.johnfetterman.com",
@@ -13957,7 +13957,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Ted Cruz",
         "name": "Ted Cruz",
         "email": "info@freedomfirstalert.com",
@@ -13974,7 +13974,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Jacky",
         "name": "Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -14280,7 +14280,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Arizona Democrats",
+        "committee": "ArizonaDemocrats",
         "sender": null,
         "name": "AZ Dems",
         "email": "info@azdem.org",
@@ -14399,7 +14399,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Mullen For Secretary of State",
+        "committee": "MullenFor Secretary of State",
         "sender": "Jesse Mullen",
         "name": "Team Mullen",
         "email": "info@mullenformontana.com",
@@ -14467,7 +14467,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "End Citizens United Nonfederal",
+        "committee": "EndCitizens United Nonfederal",
         "sender": null,
         "name": "PLEASE SIGN: 50,000 Signatures Needed",
         "email": "hello@fightforreform.org",
@@ -14485,7 +14485,7 @@
     },
     {
         "committee": "Magaziner for Congress",
-        "sender": "Seth",
+        "sender": "Seth Magaziner",
         "name": "Team Magaziner",
         "email": "info@sethmagaziner.com",
         "subject": "we need to do everything we can",
@@ -14569,8 +14569,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "BELL FOR MISSOURI",
-        "sender": null,
+        "committee": "BELL FORMISSOURI",
+        "sender": "Team Bell",
         "name": "Wesley Bell for Congress",
         "email": "digital@bell4mo.com",
         "subject": "Are you prepared\u2026?",
@@ -14603,7 +14603,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Torres For Congress",
+        "committee": "TorresFor Congress",
         "sender": "Ritchie Torres",
         "name": "Ritchie Torres",
         "email": "info@torres.nyc",
@@ -14620,7 +14620,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Alma Adams for Congress",
+        "committee": "AlmaAdams for Congress Alma Adams for Congress",
         "sender": "Alma",
         "name": "Alma Adams",
         "email": "alma@almaadamsforcongress.com",
@@ -14689,7 +14689,7 @@
     },
     {
         "committee": "Missourians for Constitutional Freedom",
-        "sender": null,
+        "sender": "The Team at Yes on 3",
         "name": "Yes on 3 Missouri",
         "email": "info@moconstitutionalfreedom.org",
         "subject": "we're dangerously close",
@@ -14807,7 +14807,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Ted Cruz",
         "name": "Ted Cruz",
         "email": "info@teamnrsc.co",
@@ -14825,7 +14825,7 @@
     },
     {
         "committee": "Donald J. Trump for President 2024, Inc.",
-        "sender": null,
+        "sender": "Team Trump",
         "name": "Team Trump",
         "email": "contact@email.djtfp24.com",
         "subject": "Today is your LAST day to vote early",
@@ -14858,7 +14858,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democracy on the Line PAC",
+        "committee": "Democracy on the LinePAC (www.democracyonthelinepac.com)",
         "sender": null,
         "name": "URGENT ALERT [DOTL]",
         "email": "info@democracyonthelinepac.com",
@@ -14892,7 +14892,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "MACKENZIE FOR CONGRESS",
+        "committee": "MACKENZIEFOR CONGRESS",
         "sender": "Ryan Mackenzie",
         "name": "Ryan Mackenzie",
         "email": "hello@m.conservativeum.com",
@@ -14926,7 +14926,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Friends of Katrina Christiansen",
+        "committee": "Friends of KatrinaChristiansen",
         "sender": "Katrina Christiansen",
         "name": "Katrina Christiansen",
         "email": "info@katrinaforussenate.com",
@@ -14943,7 +14943,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@action.rosenfornevada.com",
@@ -15011,7 +15011,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Morse for Congress",
+        "committee": "Morse forCongress",
         "sender": "Andrea Morse",
         "name": "Andrea Morse",
         "email": "info@andreamorseforcongress.com",
@@ -15148,7 +15148,7 @@
     },
     {
         "committee": "STEVE GARVEY FOR U.S. SENATE",
-        "sender": "Steve Garvey",
+        "sender": null,
         "name": "Steve Garvey",
         "email": "info@justandfreegop.com",
         "subject": "Important message",
@@ -15216,7 +15216,7 @@
     },
     {
         "committee": "Michael B. Moore for South Carolina",
-        "sender": "Michael B. Moore",
+        "sender": "Team Moore",
         "name": "Team Moore",
         "email": "campaign@michaelbmoore.com",
         "subject": "Michael B. Moore or Nancy Mace?",
@@ -15249,7 +15249,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Ted Cruz",
         "name": "Ted Cruz",
         "email": "info@conservativesdefendingfreedom.com",
@@ -15283,8 +15283,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": "Sherrod Brown",
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Sherrod",
         "name": "Sherrod",
         "email": "info@sherrodbrown.com",
         "subject": "just three days",
@@ -15300,7 +15300,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "JUSTICE DEMOCRATS",
+        "committee": "Justice Democrats",
         "sender": null,
         "name": "JusticeDemocrats.com",
         "email": "us@list.justicedemocrats.com",
@@ -15317,8 +15317,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Voters Deserve Better",
-        "sender": "Election Update Team",
+        "committee": "VotersDeserve Better",
+        "sender": null,
         "name": "Election Update (via Voters Deserve Better)",
         "email": "hello@m.conservativeum.com",
         "subject": "This is AWFUL >> SHOCK KAMALA SURGE >>",
@@ -15368,7 +15368,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS",
+        "committee": "ALEXANDRIA OCASIO-CORTEZ FORCONGRESS",
         "sender": null,
         "name": "Team AOC",
         "email": "speak@ocasiocortez.com",
@@ -15453,7 +15453,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Mark Takano For Congress",
+        "committee": "Mark Takano ForCongress",
         "sender": "Mark Takano",
         "name": "Mark Takano",
         "email": "info@marktakano.com",
@@ -15555,7 +15555,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "John Legend",
         "name": "John Legend",
         "email": "info@sherrodbrown.com",
@@ -15606,7 +15606,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "LESLIE MEHTA FOR CONGRESS",
+        "committee": "Leslie Mehta for Congress",
         "sender": "Leslie Mehta",
         "name": "Team Mehta",
         "email": "campaign@lesliemehta.com",
@@ -15624,7 +15624,7 @@
     },
     {
         "committee": "End Citizens United Nonfederal",
-        "sender": "Fight for Reform",
+        "sender": null,
         "name": "urgent bump! [FFR]",
         "email": "hello@fightforreform.org",
         "subject": "you won\u2019t vote for VP Harris?!?",
@@ -15742,7 +15742,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Josh Hawley Victory Committee",
+        "committee": "Josh Hawley VictoryCommittee",
         "sender": null,
         "name": "Senate GOP",
         "email": "josh@hawleyformo.com",
@@ -15777,7 +15777,7 @@
     },
     {
         "committee": "Ted Cruz for Senate",
-        "sender": "TeamCruz",
+        "sender": null,
         "name": "=?UTF-8?Q?Team_Cruz=C2=A0?=",
         "email": "info@conservativesdefendingfreedom.com",
         "subject": "Action Needed Today",
@@ -15844,7 +15844,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Sherrod",
         "name": "Sherrod Brown",
         "email": "info@action.rosenfornevada.com",
@@ -15896,7 +15896,7 @@
     },
     {
         "committee": "Hung Cao for Virginia",
-        "sender": "CAPT Hung Cao, USN (Ret)",
+        "sender": "Hung Cao",
         "name": "Hung Cao",
         "email": "info@makingamericathegreatest.com",
         "subject": "Knock knock knock",
@@ -15997,8 +15997,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Ohio Democratic Party",
-        "sender": null,
+        "committee": "theOhio Democratic Party",
+        "sender": "Team ODP",
         "name": "Team ODP",
         "email": "info@ohiodems.org",
         "subject": "The numbers we\u2019re paying attention to",
@@ -16031,8 +16031,8 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
-        "sender": null,
+        "committee": "Friends of Sherrod Brown",
+        "sender": "Team Sherrod",
         "name": "gotv@sherrodbrown.com",
         "email": "info@sherrodbrown.com",
         "subject": "You\u2019re assigned: Lorain County",
@@ -16049,7 +16049,7 @@
     },
     {
         "committee": "JANELLE BYNUM FOR CONGRESS",
-        "sender": null,
+        "sender": "Janelle Bynum",
         "name": "Bynum HQ",
         "email": "info@janellebynum.com",
         "subject": "Toss of a coin",
@@ -16100,7 +16100,7 @@
     },
     {
         "committee": "Foushee for Congress",
-        "sender": null,
+        "sender": "Team Foushee",
         "name": "Team Foushee",
         "email": "info@valeriefoushee.com",
         "subject": "3 days, 3 reasons, $3",
@@ -16133,7 +16133,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Democratic Association of Secretaries of State",
+        "committee": "Democratic Association of Secretaries of State, Treasurer Denise Merrill",
         "sender": "Adrian Fontes",
         "name": "Adrian Fontes",
         "email": "info@democraticsecretaries.org",
@@ -16150,7 +16150,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TURNING POINT ACTION",
+        "committee": "TURNING POINT ACTION (TPACTION.COM)",
         "sender": "Charlie Kirk",
         "name": "Charlie Kirk, Turning Point Action",
         "email": "info@makingamericathegreatest.com",
@@ -16303,7 +16303,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "EMILYS LIST",
+        "committee": "EMILYs List",
         "sender": "Jessica Mackler",
         "name": "Jessica Mackler, EMILYs List ",
         "email": "information@emilyslist.org",
@@ -16337,7 +16337,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF SHERROD BROWN",
+        "committee": "Friends of Sherrod Brown",
         "sender": "Sherrod Brown",
         "name": "Brown, Sherrod",
         "email": "info@sherrodbrown.com",
@@ -16473,7 +16473,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "FRIENDS OF KRISTIN FOR WISCONSIN",
+        "committee": "FRIENDSOF KRISTIN FOR WISCONSIN",
         "sender": "Suzan",
         "name": "Suzan DelBene",
         "email": "info@kristinforwisconsin.com",
@@ -16524,7 +16524,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "NRSC",
+        "committee": "the NRSC",
         "sender": "Ted Cruz",
         "name": "Ted Cruz",
         "email": "info@itsourgreatamerica.com",
@@ -16542,7 +16542,7 @@
     },
     {
         "committee": "Hung Cao for Virginia",
-        "sender": "CAPT Hung Cao USN (Ret)",
+        "sender": "CAPT Hung Cao",
         "name": "Hung Cao",
         "email": "info@freedomtrainalert.com",
         "subject": "The end of the road",
@@ -16644,7 +16644,7 @@
     },
     {
         "committee": "STEVE GARVEY FOR U.S. SENATE",
-        "sender": null,
+        "sender": "Steve Garvey",
         "name": "#6 Steve Garvey",
         "email": "info@conservativesfordjt.com",
         "subject": "We need every dollar possible to fight",
@@ -16745,7 +16745,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rand Paul for Senate",
+        "committee": "RandPaul for Senate",
         "sender": "Rand Paul",
         "name": "Rand Paul",
         "email": "info@liberty-pulse.com",
@@ -16762,7 +16762,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "TRUTH TO POWER PAC",
+        "committee": "TRUTH TO POWERPAC",
         "sender": "Katie",
         "name": "Katie Porter",
         "email": "info@katieporter.com",
@@ -16847,7 +16847,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Rosen for Nevada",
+        "committee": "Rosenfor Nevada",
         "sender": "Sen. Jacky Rosen",
         "name": "Jacky Rosen",
         "email": "info@action.rosenfornevada.com",
@@ -16881,7 +16881,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "SENATE CONSERVATIVES FUND",
+        "committee": "Senate Conservatives Fund",
         "sender": null,
         "name": "Senate Conservatives",
         "email": "info@standingstrongamerica.com",
@@ -16915,7 +16915,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Sensible Americans PAC",
+        "committee": "Sensible Americans PAC, LoseCruz.com",
         "sender": "TeamSherrod",
         "name": "Sherrod Brown",
         "email": "info@losecruz.com",
@@ -16966,7 +16966,7 @@
         "disclaimer": "TRUE"
     },
     {
-        "committee": "Trump National Committee JFC Inc.",
+        "committee": "Trump National Committee JFC Inc., a joint fundraising committee composed of and authorized by Donald J. Trump for President 2024, Inc. and the Republican National Committee.",
         "sender": "Donald J. Trump",
         "name": "President Trump",
         "email": "contact@win.donaldjtrump.com",
