@@ -78,12 +78,18 @@
         "support": 11.0
     },
     "blackburn tennessee victory fund": {
-        "precision": 1.0,
-        "recall": 0.16666666666666666,
-        "f1-score": 0.2857142857142857,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
         "support": 12.0
     },
     "blackburn tennessee victory fund, a joint fundraising committee authorized by and composed of marsha for senate, marsha pac, and tennessee republican party federal election account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
+    "blackburn tennessee victory fund, a joint fundraising committee authorized by and composed of marsha for senate, marshapac, and tennessee republican party federal election account": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
@@ -132,16 +138,10 @@
         "support": 1.0
     },
     "busse for montana": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
-    },
-    "busse for montana \u2022 democrat \u2022 po box 8537 \u2022 kalispell, mt 59904": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
     },
     "california democratic party": {
         "precision": 0.0,
@@ -271,8 +271,8 @@
     },
     "democratic association of secretaries of state": {
         "precision": 1.0,
-        "recall": 0.4,
-        "f1-score": 0.5714285714285714,
+        "recall": 0.2,
+        "f1-score": 0.3333333333333333,
         "support": 5.0
     },
     "democratic association of secretaries of state, treasurer denise merrill": {
@@ -282,9 +282,9 @@
         "support": 0.0
     },
     "democratic legislative campaign committee": {
-        "precision": 1.0,
-        "recall": 0.1,
-        "f1-score": 0.18181818181818182,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
         "support": 10.0
     },
     "democratic party of georgia": {
@@ -379,8 +379,8 @@
     },
     "emilys list": {
         "precision": 1.0,
-        "recall": 0.8,
-        "f1-score": 0.8888888888888888,
+        "recall": 0.7,
+        "f1-score": 0.8235294117647058,
         "support": 10.0
     },
     "emilyslist": {
@@ -551,10 +551,16 @@
         "f1-score": 1.0,
         "support": 3.0
     },
+    "gay valimont": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
     "gay valimont for congress": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
         "support": 1.0
     },
     "gcgop": {
@@ -613,8 +619,8 @@
     },
     "harris for president": {
         "precision": 1.0,
-        "recall": 0.8571428571428571,
-        "f1-score": 0.9230769230769231,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9629629629629629,
         "support": 14.0
     },
     "harris forpresident": {
@@ -853,9 +859,15 @@
     },
     "keith ellison for attorney general committee": {
         "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
         "support": 3.0
+    },
+    "keith ellison for attorney general committee, po box 17224, minneapolis, mn 55417": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
     },
     "ken mitchell for virginia": {
         "precision": 1.0,
@@ -1080,9 +1092,9 @@
         "support": 13.0
     },
     "nevada state democratic party": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2857142857142857,
         "support": 6.0
     },
     "new democrat coalition action fund": {
@@ -1116,9 +1128,9 @@
         "support": 11.0
     },
     "nrsc": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 0.03571428571428571,
+        "f1-score": 0.06896551724137931,
         "support": 56.0
     },
     "ohio democratic party": {
@@ -1285,8 +1297,8 @@
     },
     "senate conservatives fund": {
         "precision": 1.0,
-        "recall": 0.8,
-        "f1-score": 0.8888888888888888,
+        "recall": 0.7,
+        "f1-score": 0.8235294117647058,
         "support": 10.0
     },
     "senate conservatives fund and not authorized by any candidate or candidate's committee": {
@@ -1429,8 +1441,8 @@
     },
     "team scalise": {
         "precision": 1.0,
-        "recall": 0.25,
-        "f1-score": 0.4,
+        "recall": 0.375,
+        "f1-score": 0.5454545454545454,
         "support": 8.0
     },
     "team scalise, a joint fundraising committee authorized by and to benefit scalise for congress and eye of the tiger pac": {
@@ -1441,14 +1453,20 @@
     },
     "ted cruz for senate": {
         "precision": 1.0,
-        "recall": 0.9473684210526315,
-        "f1-score": 0.972972972972973,
+        "recall": 0.8947368421052632,
+        "f1-score": 0.9444444444444444,
         "support": 19.0
     },
-    "ted cruz forsenate": {
+    "ted cruz for senate 815 a brazos,pmb 550, austin, tx 78701": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
+        "support": 0.0
+    },
+    "ted cruz forsenate": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
         "support": 2.0
     },
     "ted cruz forsenate 815 a brazos, pmb 550, austin, tx 78701": {
@@ -1493,7 +1511,19 @@
         "f1-score": 0.0,
         "support": 0.0
     },
+    "the keith ellison for attorney general committee, po box 17224, minneapolis, mn 55417": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
     "the massachusetts democratic state committee": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
+    "the national democratic redistricting committee": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
@@ -1517,13 +1547,13 @@
         "f1-score": 0.0,
         "support": 0.0
     },
-    "the nevada state democratic party": {
+    "the nevada state democratic party, nvdems.com": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
         "support": 0.0
     },
-    "the nevada state democratic party, nvdems.com": {
+    "the nevada state democratic party, nvdems.com, not authorized by any candidate or candidate's committee": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
@@ -1541,7 +1571,19 @@
         "f1-score": 0.0,
         "support": 0.0
     },
+    "the nrcc and not authorized by any candidate or candidate's committee. nrcc.org": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
     "the nrsc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
+    "the nrsc. not authorized by any candidate or candidate's committee. www.nrsc.org": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
@@ -1560,6 +1602,12 @@
         "support": 0.0
     },
     "the pennsylvania democratic party": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
+    "the pennsylvania democratic party. not authorized by any candidate or candidate committee.": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
@@ -1655,19 +1703,7 @@
         "f1-score": 0.0,
         "support": 0.0
     },
-    "trump national committee jfc, inc.": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
     "trump national committee jfc, inc., a joint fundraising committee composed of and authorized by donald j. trump for president 2024, inc. and the republican national committee": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
-        "support": 0.0
-    },
-    "trump national committee jfc, inc., a joint fundraising committee composed of and authorized by donald j. trump for president 2024, inc. and the republican nationalcommittee": {
         "precision": 0.0,
         "recall": 0.0,
         "f1-score": 0.0,
@@ -1722,15 +1758,15 @@
         "support": 0.0
     },
     "upset the setup pac": {
-        "precision": 0.8,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1-score": 0.8888888888888888,
+        "f1-score": 1.0,
         "support": 4.0
     },
     "upset the setuppac": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1-score": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
         "support": 1.0
     },
     "upsetthe setup pac": {
@@ -1823,17 +1859,17 @@
         "f1-score": 1.0,
         "support": 1.0
     },
-    "accuracy": 0.77,
+    "accuracy": 0.768,
     "macro avg": {
-        "precision": 0.7559758771929824,
-        "recall": 0.7357792095370005,
-        "f1-score": 0.7391867198405444,
+        "precision": 0.7468279569892473,
+        "recall": 0.7231926590670223,
+        "f1-score": 0.7274161907823492,
         "support": 1000.0
     },
     "weighted avg": {
-        "precision": 0.8411333333333333,
-        "recall": 0.77,
-        "f1-score": 0.7808900259490524,
+        "precision": 0.8839333333333333,
+        "recall": 0.768,
+        "f1-score": 0.7808464049735856,
         "support": 1000.0
     }
 }
