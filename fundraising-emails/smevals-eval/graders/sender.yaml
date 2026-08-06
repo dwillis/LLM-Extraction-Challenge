@@ -1,0 +1,6 @@
+name: sender
+checks:
+  - checker: ../checkers/check_sender
+    required: false
+scoring:
+  pass_threshold: 1.0

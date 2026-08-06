@@ -1,0 +1,6 @@
+name: fundraising-emails
+description: >
+  Extract the committee and sender from the "Paid for by" disclaimer in
+  political fundraising email bodies (LLM-Extraction-Challenge, prompt2).
+  Scored on exact committee match, comparable to the repo leaderboard's
+  Accuracy column for *_prompt2.json runs.
