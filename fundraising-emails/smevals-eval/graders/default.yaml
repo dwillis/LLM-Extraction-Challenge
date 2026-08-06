@@ -1,0 +1,6 @@
+name: default
+checks:
+  - checker: ../checkers/check_committee
+    required: true
+scoring:
+  pass_threshold: 1.0

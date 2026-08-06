@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# smevals eval (generated tasks and run outputs)
+fundraising-emails/smevals-eval/tasks/*.yaml
+fundraising-emails/smevals-eval/runs/
